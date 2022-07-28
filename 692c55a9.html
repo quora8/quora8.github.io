@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/quora.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/quora.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8818511146312414"
+     crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:type" content="article">
+<meta property="og:title" content="github博客速记">
+<meta property="og:url" content="http://example.com/692c55a9.html">
+<meta property="og:site_name" content="知乎吧">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-07-26T09:04:08.000Z">
+<meta property="article:modified_time" content="2022-07-27T01:57:22.000Z">
+<meta property="article:author" content="quora">
+<meta property="article:tag" content="生活">
+<meta property="article:tag" content="新闻">
+<meta property="article:tag" content="github">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/692c55a9.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>github博客速记 | 知乎吧</title>
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?<73a789575718760266b5ed121a652ef4>";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">知乎吧</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">有问题，就有答案</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/692c55a9.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.png">
+      <meta itemprop="name" content="quora">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="知乎吧">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          github博客速记
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-07-26 17:04:08" itemprop="dateCreated datePublished" datetime="2022-07-26T17:04:08+08:00">2022-07-26</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-07-27 09:57:22" itemprop="dateModified" datetime="2022-07-27T09:57:22+08:00">2022-07-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/english/" itemprop="url" rel="index"><span itemprop="name">英语</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">alert</span>(<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>1.git main不是master<br>2.中文language: zh-CN在根目录，不是主题目<br>3.版权</p>
+<h1 id="Powered-by-Hexo-amp-NexT"><a href="#Powered-by-Hexo-amp-NexT" class="headerlink" title="Powered by Hexo &amp; NexT"></a>Powered by Hexo &amp; NexT</h1><p>  powered: false<br>4.分类标签，在主题配置文件menu<br>根目录source<br>hexo n page tags<br>hexo n page categories<br>5.next配置文件头像avatar<br>6.分类标签映射map<br>7.固定链接,根目录配置<br>npm install hexo-abbrlink –save</p>
+<h1 id="URL"><a href="#URL" class="headerlink" title="URL"></a>URL</h1><h2 id="Set-your-site-url-here-For-example-if-you-use-GitHub-Page-set-url-as-‘https-username-github-io-project-39"><a href="#Set-your-site-url-here-For-example-if-you-use-GitHub-Page-set-url-as-‘https-username-github-io-project-39" class="headerlink" title="Set your site url here. For example, if you use GitHub Page, set url as ‘https://username.github.io/project&#39;"></a>Set your site url here. For example, if you use GitHub Page, set url as ‘<a target="_blank" rel="noopener" href="https://username.github.io/project&#39;">https://username.github.io/project&#39;</a></h2><p>url: <a href="http://example.com/">http://example.com</a><br>#permalink: :year&#x2F;:month&#x2F;:day&#x2F;:title&#x2F;<br>permalink: :abbrlink.html  # 此处可以自己设置，也可以直接使用 &#x2F;:abbrlink  posts也可改也可以去掉<br>abbrlink:<br>  alg: crc32   #算法： crc16(default) and crc32<br>  rep: hex     #进制： dec(default) and hex<br>8.文章添加分类标签(坑：属性与值之间要有空格隔开)<br>title: github博客速记<br>date:<br>tags: [生活, 新闻, github]<br>categories: [心理学]<br>分类唯一，不能多个？<br>9.代码高亮(坑，这里的反引号)</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">alert</span>(<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+
+
+<p>permalink_defaults:<br>pretty_urls:<br>  trailing_index: true # Set to false to remove trailing ‘index.html’ from permalinks<br>  trailing_html: true # Set to false to remove trailing ‘.html’ from permalinks</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/xxly1994/article/details/108188722">https://blog.csdn.net/xxly1994/article/details/108188722</a></p>
+<p>ssh: connect to host github.com port 22: Connection refused<br>Bad escape character ‘ygen’.</p>
+<p>hexo init出错，更新nodejs<br>not empty, please run <code>hexo init</code> on an empty folder and then copy your files into it</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41360604/article/details/125060739">https://blog.csdn.net/weixin_41360604/article/details/125060739</a></p>
+<p>ERROR Deployer not found: git<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/lott0419/article/details/106687602">https://blog.csdn.net/lott0419/article/details/106687602</a></p>
+<p>err: Error: Spawn failed<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41256398/article/details/117994899">https://blog.csdn.net/weixin_41256398/article/details/117994899</a></p>
+<p>$ cd themes<br>$ git clone <a target="_blank" rel="noopener" href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/zyq55917/article/details/125073627">https://blog.csdn.net/zyq55917/article/details/125073627</a></p>
+<p>adsense<br><a target="_blank" rel="noopener" href="https://darrenliuwei.com/hexo-next-blog.html">https://darrenliuwei.com/hexo-next-blog.html</a></p>
+<p>next主题<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1dW411J7ac">https://www.bilibili.com/video/BV1dW411J7ac</a></p>
+<p><a target="_blank" rel="noopener" href="https://sphard.com/ebooks/hexo-next-blog/">https://sphard.com/ebooks/hexo-next-blog/</a></p>
+<p>在线写博客<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_41426117/article/details/108703295">https://blog.csdn.net/qq_41426117/article/details/108703295</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1dt4y1Q7UE">https://www.bilibili.com/video/BV1dt4y1Q7UE</a></p>
+<p>中文language: zh-CN在根目录，不是主题目<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1QD4y1F7pc">https://www.bilibili.com/video/BV1QD4y1F7pc</a></p>
+<p>配置<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/as480133937/article/details/100138838/">https://blog.csdn.net/as480133937/article/details/100138838/</a><br><a target="_blank" rel="noopener" href="https://gitpagelearn.github.io/">https://gitpagelearn.github.io/</a></p>
+<p>主题<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/wyll19980812/article/details/107016680/">https://blog.csdn.net/wyll19980812/article/details/107016680/</a></p>
+<p>全文阅读</p>
+<!-- more -->
+
+<p>分类中文<br>别名category_map<br>tags: [云标签,分类]</p>
+<h1 id="Category-amp-Tag"><a href="#Category-amp-Tag" class="headerlink" title="Category &amp; Tag"></a>Category &amp; Tag</h1><p>default_category: uncategorized<br>category_map:<br>    心理学: psychology<br>    英语: english<br>tag_map:<br>    生活: life<br>    新闻: news</p>
+<p>FATAL YAMLException: duplicated mapping key (107:1)<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_43423781/article/details/118892741">https://blog.csdn.net/weixin_43423781/article/details/118892741</a></p>
+<p>hexo c<br>hexo g<br>hexo d</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> attributes = [</span><br><span class="line">  <span class="string">&#x27;autocomplete=&quot;off&quot;&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;autocorrect=&quot;off&quot;&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;autocapitalize=&quot;off&quot;&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;spellcheck=&quot;false&quot;&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;contenteditable=&quot;true&quot;&#x27;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> attributesStr = attributes.<span class="title function_">join</span>(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line"></span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">filter</span>.<span class="title function_">register</span>(<span class="string">&#x27;after_post_render&#x27;</span>, <span class="keyword">function</span> (<span class="params">data</span>) &#123;</span><br><span class="line">  <span class="keyword">while</span> (<span class="regexp">/&lt;figure class=&quot;highlight ([a-zA-Z]+)&quot;&gt;.*?&lt;\/figure&gt;/</span>.<span class="title function_">test</span>(data.<span class="property">content</span>)) &#123;</span><br><span class="line">    data.<span class="property">content</span> = data.<span class="property">content</span>.<span class="title function_">replace</span>(<span class="regexp">/&lt;figure class=&quot;highlight ([a-zA-Z]+)&quot;&gt;.*?&lt;\/figure&gt;/</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">      <span class="keyword">var</span> language = <span class="title class_">RegExp</span>.<span class="property">$1</span> || <span class="string">&#x27;plain&#x27;</span></span><br><span class="line">      <span class="keyword">var</span> lastMatch = <span class="title class_">RegExp</span>.<span class="property">lastMatch</span></span><br><span class="line">      lastMatch = lastMatch.<span class="title function_">replace</span>(<span class="regexp">/&lt;figure class=&quot;highlight /</span>, <span class="string">&#x27;&lt;figure class=&quot;iseeu highlight /&#x27;</span>)</span><br><span class="line">      <span class="keyword">return</span> <span class="string">&#x27;&lt;div class=&quot;highlight-wrap&quot;&#x27;</span> + attributesStr + <span class="string">&#x27;data-rel=&quot;&#x27;</span> + language.<span class="title function_">toUpperCase</span>() + <span class="string">&#x27;&quot;&gt;&#x27;</span> + lastMatch + <span class="string">&#x27;&lt;/div&gt;&#x27;</span></span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> data</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>hexo n “p20220726”</p>
+<hr>
+<p>title: 新文章<br>data:<br>categories: [分类]<br>tags: [标签]<br>abbrlink: 15088</p>
+<hr>
+<p>github不通<br><a target="_blank" rel="noopener" href="https://ipaddress.com/website/github.com">https://ipaddress.com/website/github.com</a><br>C:\Windows\System32\drivers\etc</p>
+<h1 id="localhost-name-resolution-is-handled-within-DNS-itself"><a href="#localhost-name-resolution-is-handled-within-DNS-itself" class="headerlink" title="localhost name resolution is handled within DNS itself."></a>localhost name resolution is handled within DNS itself.</h1><h1 id="127-0-0-1-localhost"><a href="#127-0-0-1-localhost" class="headerlink" title="127.0.0.1       localhost"></a>127.0.0.1       localhost</h1><h1 id="1-localhost"><a href="#1-localhost" class="headerlink" title="::1             localhost"></a>::1             localhost</h1><p>140.82.113.4 github.com</p>
+<p>hexo安装<br>npm install express -g<br>npm install hexo-cli -g</p>
+<p>修改nodejs目录下npm和npm.cmd<br>npm WARN config global <code>--global</code>, <code>--local</code> are deprecated. Use <code>--location=global</code> instead.<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/tnb_ml/article/details/125678413">https://blog.csdn.net/tnb_ml/article/details/125678413</a></p>
+<p>fatal: unable to access ‘<a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-starter.git/&#39;">https://github.com/hexojs/hexo-starter.git/&#39;</a>: Failed to connect to github.com port 443 after 21128 ms: Timed out</p>
+<p>npm install hexo-deployer-git –save</p>
+<p>fatal: unable to auto-detect email address</p>
+<p>next安装<br>cd hexo<br>$ git clone <a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a> themes&#x2F;next</p>
+<p>powered: false</p>
+<p>安装搜索<br>$ npm install hexo-generator-searchdb –save<br>search:<br>  path: search.xml<br>  field: post<br>  format: html<br>  limit: 10000<br>主题配置</p>
+<h1 id="Local-search"><a href="#Local-search" class="headerlink" title="Local search"></a>Local search</h1><p>local_search:<br>  enable: true</p>
+<hr>
+<p>title: 分类<br>date: 2022-07-26 20:32:38<br>type: “categories”<br>layout: “categories”<br>categories:</p>
+<ul>
+<li>Java</li>
+<li>C++</li>
+<li>Android</li>
+<li>IOS</li>
+</ul>
+<hr>
+<hr>
+<p>title: quora8<br>data:<br>categories: [cate]<br>tags: [tag1，tag2]<br>abbrlink: 15088</p>
+<hr>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/life/" rel="tag"># 生活</a>
+              <a href="/tags/news/" rel="tag"># 新闻</a>
+              <a href="/tags/github/" rel="tag"># github</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/e133850c.html" rel="next" title="真正的精神病人有糟糕的一天吗？">
+      真正的精神病人有糟糕的一天吗？ <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Powered-by-Hexo-amp-NexT"><span class="nav-number"></span> <span class="nav-text">Powered by Hexo &amp; NexT</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#URL"><span class="nav-number"></span> <span class="nav-text">URL</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Set-your-site-url-here-For-example-if-you-use-GitHub-Page-set-url-as-%E2%80%98https-username-github-io-project-39"><span class="nav-number">1.</span> <span class="nav-text">Set your site url here. For example, if you use GitHub Page, set url as ‘https:&#x2F;&#x2F;username.github.io&#x2F;project&#39;</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Category-amp-Tag"><span class="nav-number"></span> <span class="nav-text">Category &amp; Tag</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#localhost-name-resolution-is-handled-within-DNS-itself"><span class="nav-number"></span> <span class="nav-text">localhost name resolution is handled within DNS itself.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#127-0-0-1-localhost"><span class="nav-number"></span> <span class="nav-text">127.0.0.1       localhost</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1-localhost"><span class="nav-number"></span> <span class="nav-text">::1             localhost</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Local-search"><span class="nav-number"></span> <span class="nav-text">Local search</span></a></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="quora"
+      src="/images/head.png">
+  <p class="site-author-name" itemprop="name">quora</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">quora</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
