@@ -1,32 +1,168 @@
-extends includes/layout.pug
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>尽管科学已经驳斥了它们，但你知道人们仍然相信哪些关于大脑的错误刻板印象和误解？ | 知乎吧</title><meta name="keywords" content="生活"><meta name="author" content="quora"><meta name="copyright" content="quora"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="这是一个例子。除了婴儿出生时换药之外，这是肥皂剧中最喜欢的比喻：有人在一场悲惨的事故中醒来，在医院里无法认出亲人，也无法记住自己的名字或历史。（当然，治疗这种形式的健忘症的唯一方法是再次敲打头颅。）False-Or(BKBN)，说这是一个“误解”在现实世界中，主要有两种形式的健忘症：顺行（无法形成新的记忆）和逆行（无法回忆过去的事件）。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="尽管科学已经驳斥了它们，但你知道人们仍然相信哪些关于大脑的错误刻板印象和误解？">
+<meta property="og:url" content="http://example.com/7e006762.html">
+<meta property="og:site_name" content="知乎吧">
+<meta property="og:description" content="这是一个例子。除了婴儿出生时换药之外，这是肥皂剧中最喜欢的比喻：有人在一场悲惨的事故中醒来，在医院里无法认出亲人，也无法记住自己的名字或历史。（当然，治疗这种形式的健忘症的唯一方法是再次敲打头颅。）False-Or(BKBN)，说这是一个“误解”在现实世界中，主要有两种形式的健忘症：顺行（无法形成新的记忆）和逆行（无法回忆过去的事件）。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2022-07-29T04:34:09.000Z">
+<meta property="article:modified_time" content="2022-07-29T04:42:01.688Z">
+<meta property="article:author" content="quora">
+<meta property="article:tag" content="生活">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/7e006762"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '尽管科学已经驳斥了它们，但你知道人们仍然相信哪些关于大脑的错误刻板印象和误解？',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-07-29 12:42:01'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-block content
-  #post
-    if top_img === false
-      include includes/header/post-info.pug
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-    article#article-container.post-content!=page.content
-    include includes/post/post-copyright.pug
-    .tag_share
-      if (theme.post_meta.post.tags)
-        .post-meta__tag-list
-          each item, index in page.tags.data
-            a(href=url_for(item.path)).post-meta__tags #[=item.name]
-      include includes/third-party/share/index.pug
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-    if theme.reward.enable && theme.reward.QR_code
-      !=partial('includes/post/reward', {}, {cache: true})
-
-    //- ad
-    if theme.ad && theme.ad.post
-      .ads-wrap!=theme.ad.post
-
-    if theme.post_pagination
-      include includes/pagination.pug
-    if theme.related_post && theme.related_post.enable
-      != related_posts(page,site.posts)
-
-    if page.comments !== false && theme.comments && theme.comments.use
-      - var commentsJsLoad = true
-      !=partial('includes/third-party/comments/index', {}, {cache: true})
-      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">知乎吧</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">尽管科学已经驳斥了它们，但你知道人们仍然相信哪些关于大脑的错误刻板印象和误解？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-29T04:34:09.000Z" title="发表于 2022-07-29 12:34:09">2022-07-29</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-29T04:42:01.688Z" title="更新于 2022-07-29 12:42:01">2022-07-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/science/">科学</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="尽管科学已经驳斥了它们，但你知道人们仍然相信哪些关于大脑的错误刻板印象和误解？"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>这是一个例子。<br>除了婴儿出生时换药之外，这是肥皂剧中最喜欢的比喻：有人在一场悲惨的事故中醒来，在医院里无法认出亲人，也无法记住自己的名字或历史。（当然，治疗这种形式的健忘症的唯一方法是再次敲打头颅。）<br>False-Or(BKBN)，说这是一个“误解”<br>在现实世界中，主要有两种形式的健忘症：顺行（无法形成新的记忆）和逆行（无法回忆过去的事件）。</p>
+<span id="more"></span>
+<p>我们只使用了 10% 的大脑。实际引用是：我们只知道 10% 的大脑在做什么。它被错误引用了，人们跟着它跑了。像这样看，普通的房子有75个电源插座。同时使用所有 75 个的机会很小。但是它们在某个时候都被使用的机会非常好。许多将同时使用。您只使用当前正在运行的任务所要求的内容。否则，你就是在浪费能量。心是一样的。您使用必要的东西并保留其余部分。在压力过大的时候，您可能需要使用所有这些。</p>
+<p>关于人类大脑的几个常见误解是：<br>有些人是“左脑”，有些人是“右脑”<br>我们只使用了 10% 的大脑<br>我还要补充一点，科学还无法完全回答与大脑有关的许多问题，例如：<br>睡觉的目的是什么？<br>什么是意识，它在大脑中的何处&#x2F;如何出现？<br>全身麻醉如何工作？<br>（在神经元层面）记忆究竟是如何形成的以及大脑中的概念&#x2F;对象是如何表示的？<br>为什么大脑的左侧控制身体的右侧，反之亦然？<br>阿尔茨海默病背后的潜在机制是什么？帕金森？亨廷顿？肌萎缩侧索硬化症？精神分裂症？癫痫？等等</p>
+<p>恕我直言，关于大脑的最大误解是，有某种东西 [灵魂？] 存在于死亡之外。没有一点可信的证据表明存在灵魂。<br>顺便说一句：没有证据表明灵魂不存在；只是在过去的 138 亿年中，我们没有发现任何支持这一主张的可信证据。</p>
+<p>常见的大脑神话被揭穿</p>
+<p>你只使用了 10% 的大脑。…<br>大脑大小影响智力。…<br>酒精会杀死脑细胞。…<br>接触古典音乐的婴儿最终会变得更聪明。…<br>左脑的人更善于分析和有条理，而右脑的人更有创造力或艺术性。</p>
+<p>大脑就像一台电脑。</p>
+<p>当然，它不像计算机。计算机具有处理“数据”的“处理器”。电脑可以“下载”程序，大脑不能；矩阵概念完全是废话。</p>
+<p>在大脑中，“数据”和“处理器”是一回事；一个神经元，它是细胞，它是突触。与计算机不同，单个内存位置可以获取所有可能值中的任何一个，在大脑中，信息是由物理突触连接进行物理编码的。它不能被“擦除”和“重写”。对于事实或学习身体技能（例如打字或武术或唱歌或跳舞）而言，这是正确的。所有这些都由庞大的连接网络中的数百万个神经元组成，这些神经元是物理生长、修剪和实现的。<br>我们可能需要很长时间才能学习新事物（例如投掷飞镖）的原因是，即使有训练和指导，我们也必须在物理上培养神经连接来学习它。中风或事故杀死了这些生活联系，即使你记得你曾经能够投掷飞镖，也会忘记它。</p>
+<p>没有程序。没有处理器。学习做某事，从数学到写致命笑话，是一个身体成长的过程，它会改变你的大脑。它在物理上改变了你的想法。<br>大脑不像计算机那样遥不可及。他们不会成长，也不会通过经验自动修改自己，慢慢变得更熟练，更擅长某事。</p>
+<p>关于大脑的常见误解：</p>
+<p>所有的记忆都是一样的。不，有不同类型的记忆，例如，情景记忆、语义记忆、程序记忆、情感记忆、感觉记忆、奖励记忆、威胁记忆等。<br>内存位于一个区域中。不，记忆的组成部分是相互关联的，是动态的，并且可以根据它们的长期记忆安慰阶段转移位置。<br>左右半球可以简单地描述人类行为的某些方面。不，每个大脑区域都有不同的区域，可以相互区分。每个区域有两个半球。扣带皮层中的快乐情绪被代表并激活了两个半球。请参阅下面的引文。<br>大脑就像一块肌肉。不，但就像肌肉一样，如果你不使用它（用于学习和记忆），你可能会失去它。<br>可以给出一些简单的建议来提高一个人的记忆能力。不。记忆需要许多不同功能的不同大脑区域的参与。为了加强学习，最有效的方法是增加学习的欲望和显着性。这将增加多巴胺受体的活性，并可以增强前额海马学习。<br>目前想到的就是这些了。如果需要我会更新。</p>
+<p>为什么人们相信上帝而不相信科学？<br>不幸的是，提供的许多答案是如此天真和傲慢。提供一种解释，将有神论者描述为智力上不成熟的孩子，将无神论者描述为开明的科学家，这是自负和傲慢的。这是自负的，因为它在历史上是不准确的。我们的大多数现代科学理论和方法都是由启蒙有神论者发展起来的，例如大爆炸理论。如果这是真的，今天的大多数科学家都是无神论者，这无关紧要。科学和神学是不同的知识领域，所以如果今天的科学家是有神论者，我们可能永远不会知道，因为混合来自这些不同领域的理论是不合适的。存在二分法的原因是方法论的，而不是心理的。</p>
+<p>很明显，所有有神论者都是非科学的，所有科学家都是非有神论的，这种更强有力的说法是错误的。如果这就是OP问题的含义，那么这显然是一个错误的困境。一个例子足以反驳这种说法。</p>
+<p>一个较弱的说法可能是有神论者往往是非科学的，而科学家往往是非有神论的。这将很难确定或否认，但您可以从两组子集的民意调查中概括出来。如果是这样的话，它仍然不能解释为什么有些有神论者是非科学的，而有些科学家是非有神论的。真正需要解决的是这种较弱的存在主义主张。从逻辑上讲，每个非科学的有神论者和每个非有神论的科学家都可能出于各自不同的原因。对这些群体的任何概括都需要解释为什么它不是过度概括，因此不是错误的描述。</p>
+<p>然而，从迄今为止给出的答案来看，最让我惊讶的是，首选的解释往往是心理上的。我认为这可能是因为提供答案的无神论者认为（a）存在二分法和（b）拒绝科学的有神论者是非理性的。这对我来说听起来像是一种确认偏见。</p>
+<p>让我们考虑如何以另一种方式处理这个问题。假设我们想解释牛顿物理学和莱布尼兹物理学之间的区别。我们不会立即开始通过将一种观点（历史上，莱布尼茨的观点）视为幼稚和非理性来解释差异，然后对他非理性幼稚的潜在原因进行心理评估。通常，我们要做的是查看它们差异的理论基础。他们都在根据基本公理进行推论和解释他们的经验。如果我们能清楚地陈述这些公理，那么我们就可以分析比较它们，找出哪些可能是相反的，甚至是相互矛盾的。这就是理性分析的方法。如果您发现有神论者是非科学的或科学家是非有神论的，那应该没有什么不同。如果有一些共同的基本信念，那么也许我们可以概括这些群体。心理差异没有帮助，而且往往是我们自己的认知偏见投射出来的。</p>
+<p>在基督教中肯定有一段时间信仰和理性被认为是对立的，尤其是关于形而上学，它优先于物理学。但那是一千年前的中世纪上半叶。造成这种情况的部分原因是当时古典文学的遗失，而教育的改进与过去几次十字军东征期间文学的恢复相吻合。到了 14 世纪，不再有根本的反对。理性和信仰被认为是完全相容的。从笛卡尔开始，启蒙神学家和自然哲学家继续发展我们今天拥有的科学方法。</p>
+<p>有对立的神学和科学的现代对立是方法论的。在基督教中也是少数。例如，今天的天主教会完全接受进化论和大爆炸理论。那些拒绝如此完善的科学理论的基督教教派完全是基于普林斯顿神学的新教教派和基督教原教旨主义. 将它们与其他基督教神学区分开来的基本信仰是圣经的无误性和方法论，其中包括对圣经的易于理解的字面解释。也许具有讽刺意味的是，这些基本的信仰和方法也被新的无​​神论者视为如何评价圣经的规范标准。如果圣经被解释为无误的和字面的，那么它的部分内容就与科学相反，无论是在方法论上，还是在他们关于人类和宇宙起源的理论中。所以在那个时候，你被迫站在上帝所说的或人类知识所说的一边。由于人类的知识是错误的，而上帝的话语是绝对正确的，因此将上帝的话语置于科学之上更为合理。</p>
+<p>相反，如果你拒绝圣经无误的基本信念，并且拒绝字面主义的解释方法，那么基督徒就没有理由以圣经为由拒绝科学，科学家也没有理由以科学为由拒绝基督教。这是非常重要的一点，因为没有科学理由接受基督教原教旨主义，也没有任何理由拒绝它。在基督教的历史中，我认为它应该被认为是极端的，就像中世纪的那种导致宗教裁判所的基督教。反对来自极端主义者的群体或信仰集或该群体或群体的极端信仰是例外谬误，稻草人的一种形式谬论。虽然一个例外情况可能足以反驳一个理论，但不足以证明一个理论。在最坏的情况下，它会导致偏执。这与声称所有穆斯林都是恐怖分子是一样的（通常基于错误声称所有恐怖分子都是穆斯林）。但这正是山姆哈里斯等一些有影响力的反宗教新无神论者所声称的关于基督教和伊斯兰教的观点。在这两种情况下，让大多数温和派和自由派坚持其少数原教旨主义者的极端主义立场是不公平的。没有这些，有神论和科学之间就没有对立，从历史上看，有神论的信仰一直强烈地激励着新的科学理论和发现。他们的方法通常是不同的和互补的。只要你不试图用科学的方法去发现关于上帝的事情，或发现自然事物的神学方法，绝对没有冲突。在最近的基督教神学中，是普林斯顿神学，更广泛地说是基督教原教旨主义，导致了纯粹的理论冲突，而不仅仅是某种心理倾向或智力上的不成熟。</p>
+<p>科学只是另一种宗教吗？<br>已经有很多优秀的答案了；我不会复制它们。</p>
+<p>但这里有一个总结：<br>哲学就像在黑暗的房间里寻找一只黑猫。<br>形而上学就像在一个黑暗的房间里寻找一只不存在的黑猫。<br>宗教就像在一个黑暗的房间里寻找一只不存在的黑猫，然后大喊“我找到了！”<br>科学就像在黑暗的房间里用手电筒寻找黑猫。<br>尽管我可能会将最后一个更改为“科学是手电筒”。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">quora</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/7e006762.html">http://example.com/7e006762.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">知乎吧</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/life/">生活</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/11494ee1.html"><img class="prev-cover" src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">重力是否与我们的血液流动方式有关？</div></div></a></div><div class="next-post pull-right"><a href="/6cf486e7.html"><img class="next-cover" src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">有哪些很酷的心理技巧？</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/e133850c.html" title="真正的精神病人有糟糕的一天吗？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-26</div><div class="title">真正的精神病人有糟糕的一天吗？</div></div></a></div><div><a href="/4881c9c7.html" title="关于爱情的一些心理事实是什么？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">关于爱情的一些心理事实是什么？</div></div></a></div><div><a href="/692c55a9.html" title="github博客速记"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-26</div><div class="title">github博客速记</div></div></a></div><div><a href="/6040183.html" title="你怎么能用心理学来操纵人呢？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">你怎么能用心理学来操纵人呢？</div></div></a></div><div><a href="/f37f303.html" title="精神病患者会保护他们关心的人吗？我知道精神病是在一个范围内，我读过的答案与这个陈述相矛盾。有人说真，有人说假。"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">精神病患者会保护他们关心的人吗？我知道精神病是在一个范围内，我读过的答案与这个陈述相矛盾。有人说真，有人说假。</div></div></a></div><div><a href="/5f276666.html" title="谁是世界上最孤独的人？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">谁是世界上最孤独的人？</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">quora</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/683f72ef.html" title="你认为应该禁止考试吗？为什么？">你认为应该禁止考试吗？为什么？</a><time datetime="2022-08-01T03:40:01.000Z" title="发表于 2022-08-01 11:40:01">2022-08-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/df55c0b1.html" title="边缘性人格障碍和自闭症有什么区别？">边缘性人格障碍和自闭症有什么区别？</a><time datetime="2022-08-01T03:31:56.000Z" title="发表于 2022-08-01 11:31:56">2022-08-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/cd181634.html" title="你害怕什么，为什么？">你害怕什么，为什么？</a><time datetime="2022-07-29T14:52:08.000Z" title="发表于 2022-07-29 22:52:08">2022-07-29</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/4c835e3f.html" title="只喝可乐不喝水，身体会怎样？">只喝可乐不喝水，身体会怎样？</a><time datetime="2022-07-29T14:34:15.000Z" title="发表于 2022-07-29 22:34:15">2022-07-29</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/75fca8ab.html" title="有哪些令人震惊的事实，听起来不真实，但实际上是真实的？">有哪些令人震惊的事实，听起来不真实，但实际上是真实的？</a><time datetime="2022-07-29T09:14:15.000Z" title="发表于 2022-07-29 17:14:15">2022-07-29</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By quora</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

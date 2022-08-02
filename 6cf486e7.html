@@ -1,32 +1,189 @@
-extends includes/layout.pug
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>有哪些很酷的心理技巧？ | 知乎吧</title><meta name="keywords" content="生活,情感"><meta name="author" content="quora"><meta name="copyright" content="quora"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="如果你想结束一个糟糕的约会：盯着你不想听的人的发际线，让人不舒服。 如果你想让你的谎言更可信：为你的故事添加一个令人尴尬的细节。 如果你想为成长和对话打开一扇门：当有人道歉时，不要说“没关系”。说“谢谢你道歉”之类的话。 如果你想让某人有一个特质：感谢某人提供你想要的特质。不要告诉你的朋友“抱歉让您久等了”，而是告诉他们，“感谢您的耐心和理解。” 如果你想让人们感到被需要：“我需要你的帮助。”">
+<meta property="og:type" content="article">
+<meta property="og:title" content="有哪些很酷的心理技巧？">
+<meta property="og:url" content="http://example.com/6cf486e7.html">
+<meta property="og:site_name" content="知乎吧">
+<meta property="og:description" content="如果你想结束一个糟糕的约会：盯着你不想听的人的发际线，让人不舒服。 如果你想让你的谎言更可信：为你的故事添加一个令人尴尬的细节。 如果你想为成长和对话打开一扇门：当有人道歉时，不要说“没关系”。说“谢谢你道歉”之类的话。 如果你想让某人有一个特质：感谢某人提供你想要的特质。不要告诉你的朋友“抱歉让您久等了”，而是告诉他们，“感谢您的耐心和理解。” 如果你想让人们感到被需要：“我需要你的帮助。”">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2022-07-28T12:56:24.000Z">
+<meta property="article:modified_time" content="2022-07-28T13:10:38.663Z">
+<meta property="article:author" content="quora">
+<meta property="article:tag" content="生活">
+<meta property="article:tag" content="情感">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/6cf486e7"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '有哪些很酷的心理技巧？',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-07-28 21:10:38'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-block content
-  #post
-    if top_img === false
-      include includes/header/post-info.pug
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-    article#article-container.post-content!=page.content
-    include includes/post/post-copyright.pug
-    .tag_share
-      if (theme.post_meta.post.tags)
-        .post-meta__tag-list
-          each item, index in page.tags.data
-            a(href=url_for(item.path)).post-meta__tags #[=item.name]
-      include includes/third-party/share/index.pug
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-    if theme.reward.enable && theme.reward.QR_code
-      !=partial('includes/post/reward', {}, {cache: true})
-
-    //- ad
-    if theme.ad && theme.ad.post
-      .ads-wrap!=theme.ad.post
-
-    if theme.post_pagination
-      include includes/pagination.pug
-    if theme.related_post && theme.related_post.enable
-      != related_posts(page,site.posts)
-
-    if page.comments !== false && theme.comments && theme.comments.use
-      - var commentsJsLoad = true
-      !=partial('includes/third-party/comments/index', {}, {cache: true})
-      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">知乎吧</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">有哪些很酷的心理技巧？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-28T12:56:24.000Z" title="发表于 2022-07-28 20:56:24">2022-07-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-28T13:10:38.663Z" title="更新于 2022-07-28 21:10:38">2022-07-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/psychology/">心理学</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="有哪些很酷的心理技巧？"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><ol>
+<li>如果你想结束一个糟糕的约会：<br>盯着你不想听的人的发际线，让人不舒服。</li>
+<li>如果你想让你的谎言更可信：<br>为你的故事添加一个令人尴尬的细节。</li>
+<li>如果你想为成长和对话打开一扇门：<br>当有人道歉时，不要说“没关系”。说“谢谢你道歉”之类的话。</li>
+<li>如果你想让某人有一个特质：<br>感谢某人提供你想要的特质。不要告诉你的朋友“抱歉让您久等了”，而是告诉他们，“感谢您的耐心和理解。”</li>
+<li>如果你想让人们感到被需要：<br>“我需要你的帮助。” 人们想要感到被需要，并且想要有所作为。向他们表达同样多的东西会使世界变得不同。</li>
+<li>如果您希望人们同意为您完成任务：<br>首先从更简单的事情开始。进门现象。人们更有可能通过渐进的承诺同意为你完成一项任务。</li>
+<li>如果你不想失去朋友：<br>永远不要与他们争论文字。争论文本是最糟糕的争论方式，因为缺乏语气会降低单词的含义。</li>
+<li>如果你真的需要冷静下来：<br>吃了点东西。如果你在大脑中吃东西，并且它的原因是“如果我有危险，我不会吃东西。所以我没有危险。”<span id="more"></span>
+自我控制：-如果你想知道你对自己有多少控制。把口香糖放进嘴里。现在咀嚼十秒钟。然后，停止咀嚼。现在等待 5 分钟。我敢打赌，你将无法抗拒自己再次咀嚼它。这会让你意识到你对自己的思想及其想法有多大的控制力。<br>成熟度：-假设您爱某人并且与他们发生争执。首先，只是听他们说话，然后用非常低的语气表达您的观点。然后微笑着说：“我希望我错了，你很理解。”<br>侮辱：- 如果有人试图侮辱您。您可以自己为您添加一种侮辱。他们会闭嘴。（只有在其他人的想法对您无关紧要时才尝试此操作）<br>听力技巧：- 如果有人在说什么，请一直看着他们的眼睛，不断地说“当然，是的，绝对的，好的”之类的话。这会让他们很高兴你对他们的谈话感兴趣并且他们会继续说话。<br>心情：- 始终随身携带巧克力。这是一种情绪助推器。<br>期望：-不断提醒自己期望会杀死你。永远不要对任何人寄予厚望，过上幸福的生活。“爱那些你没有任何期望的东西”<br>信任：-始终归还您借来的笔。这将使您成为值得信赖的人。</li>
+</ol>
+<p>如果有人想看到（或学习）一些此类黑客，没有人比苏联人弗拉基米尔普京更好。他的姿态和个性通常会影响真正意义上的世界领导人的心理。<br>第一：如果周围已经有这么多的关注，就不要关注周围的任何东西。不管事情或人多么重要！<br>第二：相反，在最合适的时间出现。<br>第三，如果有人故意不理你，请保持安静。<br>第四，做出任何人都无法忽视的举动！【这里的女士是习近平的夫人】<br>第五，如果你知道你对手的当代历史，它是一个先进的心理黑客！自 1999 年以来，他一直与他们握手。很快，特朗普也将加入联盟。连续四场。[对于任何其他世界领导人来说都是罕见的]<br>第六，不要被预测和保持秘密。让人们等待足够多之后，让他们知道您的想法！这样，您将永远不会被逼到绝境。[UNGA通常不会那么拥挤]<br>最后，拥有自己的第一层安全保障！这是普京的风格。观看这段 35 秒的视频，展示他的行走方式！<br>现在这是结果：要么是好，要么是坏</p>
+<p>这是很酷的黑客！他有时也被称为“阿尔法”型人格。</p>
+<ol>
+<li><p>如果有人生你的气，而你保持冷静，他们可能会更生气。但是他们会为自己感到羞耻。</p>
+</li>
+<li><p>如果有人一直在说话，而你无法进入谈话，你把东西掉在地上（钥匙、笔等），你弯下腰捡起来开始说话。这样，你就可以在不被察觉的情况下打断对方。<br>3.如果有人一直在你的办公桌前打扰你，继续和他说话，但起身一起走回他的办公桌。以前有个老板很擅长这个。他会把你带回你的办公桌，然后你想知道我是怎么回来的。<br>4、当一群人笑的时候，每个人都会看着自己喜欢的人。<br>5、面试前，提前到达面试地点，与陌生人聊天20分钟。这会让你的大脑对环境感到熟悉，这会让你更加自信。<br>6、如果你突然想起n年前发生的丑事，觉得很丢脸，停下来想想看到的人。你还记得发生在他身上的丑陋吗？一点也不。同样，没有人会记得你的屈辱时刻。<br>7、如果你没有动力去学习一门技能（乐器或外语等），告诉自己：好的，我坐下来学习五分钟。大多数时候，你最终会坐超过五分钟。即使你只坐了五分钟，也比不尝试要好。</p>
+</li>
+<li><p>人们会将你与你在别人身上使用的形容词联系起来。这种现象被称为“无意识特征迁移”。也就是说，如果你说一个人真诚善良，人们就会把这些品质与你联系起来。如果你总是在背后说别人的坏话，人们也会将这些负面评论与你联系起来。</p>
+</li>
+<li><p>如果你觉得有人在看着你，你可以看看你的手表或者你戴的地方。如果那个人在看你，他也会下意识地看他的手腕&#x2F;手表。 [<br>10.如果你在谈话中感到焦虑并且眼神交流让你感到压力，你可以试着看着对方的眼睛中间。它让你看起来友好和自信。</p>
+</li>
+<li><p>你为别人开门。<br>科学家们发现，这不仅仅是为了礼貌。含义：我们都在努力花更少的精力做事。这表明我们确实试图以我们希望被对待的方式对待他人。<br>2.健忘是高智商的标志。<br>科学家声称遗忘与记忆一样重要。“糟糕的记忆”&#x3D;在大脑中为更多相关信息腾出更多空间的机制。它可以防止你的大脑浪费空间和能量。</p>
+</li>
+<li><p>你以为你感觉到你的手机在你的口袋里振动，但没有任何通知。<br>这种情况被称为幻觉振动综合症，我们中有 68% 的人患有这种情况。</p>
+</li>
+<li><p>一到房间，你就忘记了进入房间的目的。<br>因为有一种叫做“门口效应”的东西。穿过门口的行为会让你忘记，因为你正在改变你的环境。</p>
+</li>
+<li><p>你的脚朝向你最感兴趣的人。<br>这是一种生存本能。如果您感到任何类型的威胁，您的身体会确保您的双脚能够立即做出反应。<br>1.如果你想让嘈杂的礼堂几乎瞬间安静下来<br>只需张开嘴，就好像你在说话的同时做手势一样。人们会立即安静下来，试图抓住你在说什么或在做什么</p>
+</li>
+<li><p>如果你想让某人在遇到你时感到兴奋<br>每次遇到某人时，您都需要开始表现得非常兴奋，他们最终也会开始变得兴奋，甚至不知道为什么。</p>
+</li>
+<li><p>如果你不想卷入争论<br>对试图将你拉入争论或对抗的人说一些尽可能愉快和积极的话。即使你不上钩，他们也会感到震惊或愤怒。</p>
+</li>
+<li><p>如果有人经常在你的办公桌前打扰你<br>继续与他们进行整个对话。然后突然起身，把人带回自己的办公桌。他们甚至不会意识到他们是如何到达那里的。</p>
+</li>
+<li><p>如果你无法保持眼神交流<br>试着盯着那个人的眉毛之间的空间。他们将无法分辨您在看哪里，以为您仍在注视着他们。<br>6.如果你想对谈话收费<br>使用沉默的力量。在谈话中，让对方努力想出方法来填补空白，让对方对停顿感到舒服。它会让大多数人离开他们的游戏，让你负责整个对话。</p>
+</li>
+</ol>
+<p>当人们谈论他们热衷的事情时，他们实际上看起来比实际更有吸引力。这是生活中最伟大的心灵黑客之一。<br>有一群聪明的人因为想得太多而行动不够而一事无成。<br>女性发病率较高，但死亡率较低。对男人来说则相反。<br>世界上最糟糕的感觉就是知道自己被信任的人利用和欺骗。<br>他们说改变和休息一样好。研究表明，与任何其他已知疗法相比，旅行更能促进大脑健康，也更能降低人患心脏病和抑郁症的风险。<br>面试的时候，早点到场，和外面的陌生人聊上十几二十分钟，这样会让你的大脑感觉熟悉环境，给你更多的信心。<br>如果一个人即使对愚蠢的事情也大笑，他内心深处是孤独的。<br>当人们说，“你变了，你有 95% 的机会不再按照他们想要的方式行事。<br>如果你宣布你的目标或告诉别人你的目标，你就不太可能实现它们，因为现在别人知道你的目标会导致你缺乏动力和兴趣。把它们留给自己！<br>对于男人的心理健康，与漂亮女孩进行5 分钟的交谈比2 小时的瑜伽更有益。<br>音乐可以弯曲和塑造你看待世界或一般生活的方式。<br>如果有人给你建议，请回复“你是对的”。这听起来比“我知道”更外交。<br>我们更关心一个人的死亡，而不是许多人的死亡。当一个人死亡时感觉更私人，但当多人死亡时，我们觉得我们不认识他们中的任何一个。<br>如果你四处走动，期待被冒犯，你就会被冒犯。<br>有些人就是喜欢看到你生气。解决方案？放松你脸上的肌肉，看着它们明显收缩。<br>每当你这样做时，你真的在​​梦中死去，这表明你在生活中开始了一些新的事情。<br>哭让你感觉更好，减轻压力，并可能有助于保持身体健康。<br>我们知道没有什么是永恒的。时间会杀死一切，我们的时间有限，但我们仍然会像永恒一样奋斗。所以，时间和我们，都在同时互相残杀。惊人！<br>当你说话时，你是在重复你已经知道的。但如果你听，你可能会学到一些新东西。<br>当你看到一只猫时，它会慢慢眨眼。如果它眨眼，猫对你很满意。<br>即使您是盲人，有时也可以“看到”物体。患有某种类型的脑损伤（“盲视”）的人被认为是功能性盲人。但他们的潜意识仍然可以看到。他们可以在不自觉地看到障碍物的情况下穿过障碍物并避开障碍物。他们的“隐藏的视线”为他们工作。<br>几乎我们感受到的每一种负面情绪都可以追溯到一种情绪，恐惧。<br>一项调查显示，男性可以听男性朋友的话很长时间，但他们只能听女朋友或妻子的六分钟。<br>当向某人列出事物时，他们最有可能记住列表中的第一项和最后一项。这可以在给某人选项时使用，如果列表中的项目不是特别不合适，您希望他们选择某些选项而不会太明显。<br>人类永远不会满足。被永恒的贪婪诅咒，他们总是需要越来越多的东西，延伸了给予者的极限。<br>不要低估体面词汇的诱惑力。只说不说是另一种程度的兴奋。<br>恐惧是一个陌生的敌人。只有让它害怕你，你才能打败它，否则你会一直害怕它。<br>行为心理学真的可以让你成为一个更好的人。<br>给大家的免费提示：如果您曾经对自己的真实身份感到好奇，那么这就是您需要看到的……</p>
+<p>对我来说，这感觉有点超现实 - 几乎太准确了，甚至是真实的。<br>但当我深入研究我的原型时，我不禁想到一切都是多么真实。<br>睡觉前，我写日记。这就像写日记，回顾我生活的那一天，写下我需要做的事情，感谢我今天收到的许多东西。<br>我和儿子今天下午去了我们家附近的一家星巴克，使用熟人给我的星巴克礼券。我在咖啡馆里转了一圈才找到座位。<br>我感到有些失落。我最讨厌的敌人不是在咖啡馆吗？我和儿子一起环顾空荡荡的座位，假装坐着，仔细地盯着她看。她看起来像我记忆中的敌人，但她不是。点完咖啡和蛋糕后，我拿起托盘上的食物，回到座位上，仔细地看着她。当然，是我偷偷偷的。她不应该在这里注意到我。<br>在我松了口气之后，不是她，我可以和我儿子说话了。心里的角落里，有一种自责和失望的感觉。<br>你很虚弱。你真可怜。<br>她曾经是我最好的朋友。我们在高中相识，一起度过了十几岁和二十几岁的时光，到了 30 多岁，我们彼此变得沮丧并断绝了联系。我对她的感觉是恐惧、悲伤和自卑。对于一直以我干净开朗的性格为荣的我来说，她就像一个可怕的人，会向我展示我的阴暗面。在她面前，我是软弱的、依赖的、服从的。如果她出现在我的同事、家人，尤其是我的孩子面前，我会非常沮丧。</p>
+<p>最近，我在打坐的时候，想起过去发生的事情，自然而然地想到了与她有关的事情。我在冥想时开始意识到。我对她没有感情。当我想摆脱这种不自然的思想时，我在星巴克看到了我的敌人的幻觉。<br>我什么时候变成懦夫了？我什么时候开始为自己感到骄傲了？我是一个懦夫，同时也是一个骄傲的人吗？哪个是真实的我？如果我可以选择真正的我，我不会选择任何一个。我既不卑微，也不庄重。我有很多我，但没有一个是真正的我。<br>当我冥想时，我意识到我在生活中创造的许多思想都是错误的。我把它们扔掉了。我抛弃了从父母那里继承下来的习惯。我抛出了这个身体就是我的想法。当我摆脱这个业力、这些习惯和我的身体时，我找到了真正的自己。随着夜空中的星星消失，原来是无限的宇宙。这是我们真实的自己。</p>
+<p>今天，我是一个懦弱的人，但我诚实地表达了我的心。因为我相信明天的我一定会不一样。谢谢你听我的故事。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">quora</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/6cf486e7.html">http://example.com/6cf486e7.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">知乎吧</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/life/">生活</a><a class="post-meta__tags" href="/tags/feeling/">情感</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/7e006762.html"><img class="prev-cover" src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">尽管科学已经驳斥了它们，但你知道人们仍然相信哪些关于大脑的错误刻板印象和误解？</div></div></a></div><div class="next-post pull-right"><a href="/51c50ba0.html"><img class="next-cover" src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">心理学如何评价一个正常人？</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/4881c9c7.html" title="关于爱情的一些心理事实是什么？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">关于爱情的一些心理事实是什么？</div></div></a></div><div><a href="/6040183.html" title="你怎么能用心理学来操纵人呢？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">你怎么能用心理学来操纵人呢？</div></div></a></div><div><a href="/5f276666.html" title="谁是世界上最孤独的人？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">谁是世界上最孤独的人？</div></div></a></div><div><a href="/6d9166d4.html" title="有哪些简单但有用的心理事实？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">有哪些简单但有用的心理事实？</div></div></a></div><div><a href="/51c50ba0.html" title="心理学如何评价一个正常人？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-28</div><div class="title">心理学如何评价一个正常人？</div></div></a></div><div><a href="/dd444afc.html" title="你的婚姻是如何结束的？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-29</div><div class="title">你的婚姻是如何结束的？</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">quora</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/683f72ef.html" title="你认为应该禁止考试吗？为什么？">你认为应该禁止考试吗？为什么？</a><time datetime="2022-08-01T03:40:01.000Z" title="发表于 2022-08-01 11:40:01">2022-08-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/df55c0b1.html" title="边缘性人格障碍和自闭症有什么区别？">边缘性人格障碍和自闭症有什么区别？</a><time datetime="2022-08-01T03:31:56.000Z" title="发表于 2022-08-01 11:31:56">2022-08-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/cd181634.html" title="你害怕什么，为什么？">你害怕什么，为什么？</a><time datetime="2022-07-29T14:52:08.000Z" title="发表于 2022-07-29 22:52:08">2022-07-29</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/4c835e3f.html" title="只喝可乐不喝水，身体会怎样？">只喝可乐不喝水，身体会怎样？</a><time datetime="2022-07-29T14:34:15.000Z" title="发表于 2022-07-29 22:34:15">2022-07-29</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/75fca8ab.html" title="有哪些令人震惊的事实，听起来不真实，但实际上是真实的？">有哪些令人震惊的事实，听起来不真实，但实际上是真实的？</a><time datetime="2022-07-29T09:14:15.000Z" title="发表于 2022-07-29 17:14:15">2022-07-29</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By quora</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

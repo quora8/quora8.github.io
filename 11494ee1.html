@@ -1,32 +1,179 @@
-extends includes/layout.pug
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>重力是否与我们的血液流动方式有关？ | 知乎吧</title><meta name="keywords" content="生活"><meta name="author" content="quora"><meta name="copyright" content="quora"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="曾经突然站起来感到头晕目眩吗？（如果没有，别担心；你最终会的。）你的心脏和动脉必须一直适应重力的“血液汇集”效应，否则你的大脑会缺氧，你的脚会肿胀。（这些效果也在你可能的未来，所以趁你有它的同时享受青春的良好循环！）科学就像深井里的青蛙……. 6 y当然。我们只有一颗心，但心有两个部分。一个供上心，另一个供下心。 如果我们没有重力，我们需要一个不那么强大的单节心脏。长时间失重会损害心脏，它会失去它">
+<meta property="og:type" content="article">
+<meta property="og:title" content="重力是否与我们的血液流动方式有关？">
+<meta property="og:url" content="http://example.com/11494ee1.html">
+<meta property="og:site_name" content="知乎吧">
+<meta property="og:description" content="曾经突然站起来感到头晕目眩吗？（如果没有，别担心；你最终会的。）你的心脏和动脉必须一直适应重力的“血液汇集”效应，否则你的大脑会缺氧，你的脚会肿胀。（这些效果也在你可能的未来，所以趁你有它的同时享受青春的良好循环！）科学就像深井里的青蛙……. 6 y当然。我们只有一颗心，但心有两个部分。一个供上心，另一个供下心。 如果我们没有重力，我们需要一个不那么强大的单节心脏。长时间失重会损害心脏，它会失去它">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2022-07-29T08:35:45.000Z">
+<meta property="article:modified_time" content="2022-07-29T08:36:44.309Z">
+<meta property="article:author" content="quora">
+<meta property="article:tag" content="生活">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/11494ee1"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '重力是否与我们的血液流动方式有关？',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-07-29 16:36:44'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-block content
-  #post
-    if top_img === false
-      include includes/header/post-info.pug
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-    article#article-container.post-content!=page.content
-    include includes/post/post-copyright.pug
-    .tag_share
-      if (theme.post_meta.post.tags)
-        .post-meta__tag-list
-          each item, index in page.tags.data
-            a(href=url_for(item.path)).post-meta__tags #[=item.name]
-      include includes/third-party/share/index.pug
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-    if theme.reward.enable && theme.reward.QR_code
-      !=partial('includes/post/reward', {}, {cache: true})
-
-    //- ad
-    if theme.ad && theme.ad.post
-      .ads-wrap!=theme.ad.post
-
-    if theme.post_pagination
-      include includes/pagination.pug
-    if theme.related_post && theme.related_post.enable
-      != related_posts(page,site.posts)
-
-    if page.comments !== false && theme.comments && theme.comments.use
-      - var commentsJsLoad = true
-      !=partial('includes/third-party/comments/index', {}, {cache: true})
-      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">知乎吧</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">重力是否与我们的血液流动方式有关？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-29T08:35:45.000Z" title="发表于 2022-07-29 16:35:45">2022-07-29</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-29T08:36:44.309Z" title="更新于 2022-07-29 16:36:44">2022-07-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/science/">科学</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="重力是否与我们的血液流动方式有关？"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>曾经突然站起来感到头晕目眩吗？（如果没有，别担心；你最终会的。）你的心脏和动脉必须一直适应重力的“血液汇集”效应，否则你的大脑会缺氧，你的脚会肿胀。（这些效果也在你可能的未来，所以趁你有它的同时享受青春的良好循环！）<br>科学就像深井里的青蛙……. 6 y<br>当然。我们只有一颗心，但心有两个部分。一个供上心，另一个供下心。</p>
+<p>如果我们没有重力，我们需要一个不那么强大的单节心脏。长时间失重会损害心脏，它会失去它的泵送力量</p>
+<p>当然是必须的！这就是为什么动物会发育出心脏，因此当它们达到一定体积时，它们可以将氧气和营养载体（血液）泵送到每个细胞。昆虫不需要血液，因为氧气直接流动，但只要您需要由于重力而趋于下降的血液，您就需要心脏来泵送。<br>相关问题<br>重力如何影响体内的血液流动？<br>克服重力将血液输送到大脑的力是什么？<br>由于重力向下拉，血液如何向上流到大脑？</p>
+<span id="more"></span>
+<p>当然，重力也起作用。除了这个问题的其他优秀答案之外，我将再添加一个“心脏在不同物种中的位置”。</p>
+<p>在人类中，心脏并不位于腹部中部。为什么会这样？为了说明为什么会这样，我们将使用蛇作为示例，而不是人类以及各种蛇：</p>
+<p>树栖蛇（爬树蛇）-重力影响最大<br>陆生蛇（大部分时间生活在地下的蛇）-重力影响适中<br>海蛇——重力的影响几乎为零，因为重力被水的浮力抵消，它们大多感觉自己生活在外太空。<br>我给你提供上面三条蛇的心脏位置图</p>
+<p>在树栖蛇中，心脏更靠近头部，因此大脑保持良好的血液供应，尾部的血液汇集（由于重力而向后回流）是微不足道的，因为尾巴又窄又紧。与其他两条蛇相比，这条蛇的血压也更高，以最大程度地减少当蛇处于抬头位置时重力对大脑血液流动的影响。心脏的位置最接近人类，因为我们一生中的大部分时间也处于直立位置，但重要的区别是蛇没有瓣膜来阻止血液汇集，但它们狭窄的身体可以弥补这一点。<br>陆生蛇的心脏靠近身体中部，血压较低，因为它们的生活方式将重力引起的压力梯度降至最低。心脏在身体两半之间的位置更加对称，因为它最大限度地减少了能量传输。如果这种蛇长时间保持直立姿势，它可能会因血液淤积和瓣膜不存在而死亡。<br>由于没有重力，海蛇的心脏就在中间。血压最低，即使它们在水中直立，水的浮力也会补偿压力梯度。<br>PS 有关详细概述，您可能会发现以下文章对蛇、血液循环和重力很有帮助</p>
+<p>芝加哥大学理论物理和物理学博士（1967 年 毕业）<br>当然。我会问一个问题作为回报。能有十二尺高的人吗？答案是不。你可能知道为什么。你有一颗可以很好地泵血的心脏。您的医生甚至会测量它，例如 140&#x2F;80 mmHg。这意味着您的心脏可以产生足够的压力将血液输送到您的大脑（这是相当重要的）。地球重力的强度是 760 毫米汞柱等于 15 磅&#x2F;平方英寸的气压或大约 30 个垂直英尺。如果你算一算，你会发现你的血压可以将你的血液泵到心脏上方大约三到四英尺的地方。如果你比这更高，十二英尺高，你的大脑比你的心脏高五英尺怎么办？真可惜。你的大脑没有得到足够的血液，你会头晕，昏倒，摔倒，发出沉闷的声音。<br>同上，你的脚上沾满了鲜血。您的心脏必须以某种方式将其泵回三四英尺，到达您的心脏和肺部。</p>
+<p>你现在知道为什么你的心脏在你的胸口，而不是在你的左腿吗？地球引力的力量使我们像我们一样出生和成长。<br>不是方向，但重力确实对血流和局部血压有影响。它不完全遵循相互连接的坦克定律。如果我们的血液运输是一个完美的封闭系统，由充满血液和盛况（心脏）的静脉组成，我们的血液循环系统就不会消耗那么多能量。你可以从脚趾到头部的任何地方都有你的心脏，这不会有什么不同。<br>但是我们的静脉在长度和宽度上是灵活的。我们在行动中也一直在“流失”血液（即使我们睡觉），我们必须一直制造新的血液。所以我们的血液循环不是封闭的，而是开放的。我们体内的血压不是恒定的，我们必须时刻调整系统！</p>
+<p>血液有机会跟随重力的意图流向地心，因为我们的血管可以变得更长更宽。这就是为什么一些（老年人）患有腿部和脚部静脉曲张的原因。</p>
+<p>如果我们开始用手“行走”，进化将使未来的人在手臂和手上也有同样的问题。他们会脸红，更经常头痛。</p>
+<p>当然，重力也起作用。除了这个问题的其他优秀答案之外，我将再添加一个“心脏在不同物种中的位置”。</p>
+<p>请注意，过度依赖药物会产生副作用，而且弊大于利。高血压需要昂贵的医疗费用，并且更有可能导致依赖。</p>
+<p>我遇到了这个指南同时寻找更健康的替代品并遵循整个指南。到目前为止，我从 150&#x2F;100 保持 130&#x2F;90 的读数。在逐渐下降后，我花了四个星期才保持理想的数字。在我最初的 5 天里，我开始感到有轻微的改善。放松身心，做一些运动可以摆脱这种医疗问题。<br>在人类中，心脏并不位于腹部中部。为什么会这样？为了说明为什么会这样，我们将使用蛇作为示例，而不是人类以及各种蛇：</p>
+<p>树栖蛇（爬树蛇）-重力影响最大<br>陆生蛇（大部分时间生活在地下的蛇）-重力影响适中<br>海蛇——重力的影响几乎为零，因为重力被水的浮力抵消，它们大多感觉自己生活在外太空。<br>我给你提供上面三条蛇的心脏位置图</p>
+<p>在树栖蛇中，心脏更靠近头部，因此大脑保持良好的血液供应，尾部的血液汇集（由于重力而向后回流）是微不足道的，因为尾巴又窄又紧。与其他两条蛇相比，这条蛇的血压也更高，以最大程度地减少当蛇处于抬头位置时重力对大脑血液流动的影响。心脏的位置最接近人类，因为我们一生中的大部分时间也处于直立位置，但重要的区别是蛇没有瓣膜来阻止血液汇集，但它们狭窄的身体可以弥补这一点。<br>陆生蛇的心脏靠近身体中部，血压较低，因为它们的生活方式将重力引起的压力梯度降至最低。心脏在身体两半之间的位置更加对称，因为它最大限度地减少了能量传输。如果这种蛇长时间保持直立姿势，它可能会因血液淤积和瓣膜不存在而死亡。<br>由于没有重力，海蛇的心脏就在中间。血压最低，即使它们在水中直立，水的浮力也会补偿压力梯度。<br>PS 有关详细概述，您可能会发现以下文章对蛇、血液循环和重力很有帮助</p>
+<p>仅在最外围的意义上。</p>
+<p>重力是决定循环系统必须在其中工作的大气压力的因素之一，因为循环系统的功能之一是将从大气中提取的氧气输送到其他组织和器官——包括从大气中提取氧气的器官。大气（肺）并将其输送到循环系统。</p>
+<p>将两件事之间的联系视为简单或特殊的想法是错误的。重力只是一个复杂系统中涉及的几个外部参数之一，该复杂系统由相互依赖的功能相同的复杂系统组成，所涉及的变量可能对这些系统的影响最小。</p>
+<p>你不能在没有能量将你的身体拉离或跨越重力的情况下将你的身体从一个地方移动到另一个地方，所以你的血液流动被锁定在重力上，并根据你的能量输入对重力做出反应。如果您的能量输入绝对为零，那么您将是一滩凝结的血液，它只会停留在一个地方消散成熵。如果你躺下测量血压，它会比站起来时低，因为当你站起来时，你会使用更多的能量来让自己从重力中站起来。</p>
+<p>伦斯勒理工学院生物医学工程硕士（1978 年毕业）<br>作为一名 MD 和工程师，我可以满怀信心地说……是的！静脉有瓣膜，可防止重力产生的血液回流。这使得来自下肢（或我们身体低于心脏的任何部位）的血液更容易克服重力的影响，更容易让血液回到我们的心脏。还有其他的，但这是最重要的。</p>
+<p>就读于加州大学伯克利分校 （1979 年毕业）<br>有关的<br>如果他们被削减，宇航员会怎么做？我听说血液在零重力下不会凝结？<br>原问题：零重力下血液不会凝结吗？如果被砍伤，宇航员会怎么做？<br>这是一个问题。参见零重力下的凝血</p>
+<p>我要在下面的一些答案中添加的唯一一件事是，当我们走路和移动时，我们腿部的肌肉收缩有助于将血液推回我们的大脑，这就是为什么你会看到一段时间没有移动的警卫倒下的原因超过。<br>重力使血液向下流动，而那些微小的腿部肌肉运动帮助血液向上流动。</p>
+<p>在布鲁克海文国家实验室工作<br>有关的<br>地球的重力是否会将我们体内的血液拉向它？<br>是的，非常重要——我们的心脏下方的静脉中有瓣膜以防止由于重力引起的回流，并且腿部肌肉的活动因此有助于将血液向上泵回心脏。</p>
+<p>这就是为什么随着年龄的增长保持活跃，至少每天步行非常重要的原因之一。您不希望血液在您的大腿部静脉中积聚，甚至可能形成凝块。</p>
+<p>必须维持心脏上方的头部动脉压，并且有一些机制会在您站起来的那一刻增加中心血压。</p>
+<p>各种问题会导致这些机制紊乱，导致的结果称为直立性或体位性低血压。如果你的身体没有适当地适应姿势的变化，这反过来又改变了穿过你身体的重力方向，这会直接影响血压，因为血液是一种液体，很可能会因为站立而失去知觉。在循环系统范围内的重力影响下，它非常自由地流动。</p>
+<p>学习放射诊断 （2021年毕业）<br>有关的<br>流向身体上部下部的血液如何忽略重力？<br>我们的身体不会忽视重力，它会克服它！</p>
+<p>首先，我们的心脏不断地泵血并将血液推入动脉</p>
+<p>然后我们有动脉本身。它们有弹性的壁，可以推动血液，传递来自心脏的冲动波。也称为脉冲。</p>
+<p>然后你的下肢有静脉，有鼻窦和瓣膜。这些瓣膜可防止回流并确保血液回流到心脏。像你的小腿肌肉（比目鱼肌）这样的肌肉就像第二颗心脏，它在这些静脉中泵送血液，并在你的腿部肌肉每次收缩时将它们送上去！</p>
+<p>70 岁，土木工程师（结构、水力学、法医）哲学家、教育家<br>是的……不……请允许我解释一下……我们的循环系统是一个封闭的基于泵的加压系统，其中泵是我们的心脏，它以一定的压力泵送我们的血液，足以让它在我们的整个身体中永久循环。我们的加压系统必须克服重力，当我们站起来时，重力会将我们的血液拉下，而我们的加压血液必须克服它才能上升到我们的身体并上升到最高点……我们大脑中的大脑。当有人头晕时，大脑缺氧到一定程度，我们要躺下，把脚稍微抬起，</p>
+<p>前MD<br>有关的<br>如果你在重力作用下在血液流动的地方割伤自己，它不应该从开放的伤口处穿过而不是从伤口中流出吗？<br>不会<br>。血液在封闭的加压系统中流动。当系统被“刺穿”时，压力会将血液从孔中排出。就像漏水的花园软管。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">quora</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/11494ee1.html">http://example.com/11494ee1.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">知乎吧</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/life/">生活</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/dd444afc.html"><img class="prev-cover" src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">你的婚姻是如何结束的？</div></div></a></div><div class="next-post pull-right"><a href="/7e006762.html"><img class="next-cover" src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">尽管科学已经驳斥了它们，但你知道人们仍然相信哪些关于大脑的错误刻板印象和误解？</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/e133850c.html" title="真正的精神病人有糟糕的一天吗？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-26</div><div class="title">真正的精神病人有糟糕的一天吗？</div></div></a></div><div><a href="/4881c9c7.html" title="关于爱情的一些心理事实是什么？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">关于爱情的一些心理事实是什么？</div></div></a></div><div><a href="/692c55a9.html" title="github博客速记"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-26</div><div class="title">github博客速记</div></div></a></div><div><a href="/6040183.html" title="你怎么能用心理学来操纵人呢？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">你怎么能用心理学来操纵人呢？</div></div></a></div><div><a href="/f37f303.html" title="精神病患者会保护他们关心的人吗？我知道精神病是在一个范围内，我读过的答案与这个陈述相矛盾。有人说真，有人说假。"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">精神病患者会保护他们关心的人吗？我知道精神病是在一个范围内，我读过的答案与这个陈述相矛盾。有人说真，有人说假。</div></div></a></div><div><a href="/5f276666.html" title="谁是世界上最孤独的人？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">谁是世界上最孤独的人？</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">quora</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/683f72ef.html" title="你认为应该禁止考试吗？为什么？">你认为应该禁止考试吗？为什么？</a><time datetime="2022-08-01T03:40:01.000Z" title="发表于 2022-08-01 11:40:01">2022-08-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/df55c0b1.html" title="边缘性人格障碍和自闭症有什么区别？">边缘性人格障碍和自闭症有什么区别？</a><time datetime="2022-08-01T03:31:56.000Z" title="发表于 2022-08-01 11:31:56">2022-08-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/cd181634.html" title="你害怕什么，为什么？">你害怕什么，为什么？</a><time datetime="2022-07-29T14:52:08.000Z" title="发表于 2022-07-29 22:52:08">2022-07-29</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/4c835e3f.html" title="只喝可乐不喝水，身体会怎样？">只喝可乐不喝水，身体会怎样？</a><time datetime="2022-07-29T14:34:15.000Z" title="发表于 2022-07-29 22:34:15">2022-07-29</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/75fca8ab.html" title="有哪些令人震惊的事实，听起来不真实，但实际上是真实的？">有哪些令人震惊的事实，听起来不真实，但实际上是真实的？</a><time datetime="2022-07-29T09:14:15.000Z" title="发表于 2022-07-29 17:14:15">2022-07-29</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By quora</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

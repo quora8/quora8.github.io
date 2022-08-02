@@ -1,32 +1,173 @@
-extends includes/layout.pug
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>你害怕什么，为什么？ | 知乎吧</title><meta name="keywords" content="情感"><meta name="author" content="quora"><meta name="copyright" content="quora"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="回答一我曾经向我的一个朋友吐露过我最害怕的事情之一。直到今天，他们仍然嘲笑我。我认为这是一种非常严重的恐惧，应该比现在更认真地对待。只看事实的人！别介意恐惧背后的情感因素。你问我害怕什么？封闭式水滑梯。 ……好吧，你可以别笑了，没那么荒谬。如果你没有看到其中的幽默，那就太棒了，我找到了一个合乎逻辑的人来倾诉我的担忧。但是，说真的，退后一步，想一想。幻灯片本身并没有那么糟糕。当然，如果您以错误的方式">
+<meta property="og:type" content="article">
+<meta property="og:title" content="你害怕什么，为什么？">
+<meta property="og:url" content="http://example.com/cd181634.html">
+<meta property="og:site_name" content="知乎吧">
+<meta property="og:description" content="回答一我曾经向我的一个朋友吐露过我最害怕的事情之一。直到今天，他们仍然嘲笑我。我认为这是一种非常严重的恐惧，应该比现在更认真地对待。只看事实的人！别介意恐惧背后的情感因素。你问我害怕什么？封闭式水滑梯。 ……好吧，你可以别笑了，没那么荒谬。如果你没有看到其中的幽默，那就太棒了，我找到了一个合乎逻辑的人来倾诉我的担忧。但是，说真的，退后一步，想一想。幻灯片本身并没有那么糟糕。当然，如果您以错误的方式">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2022-07-29T14:52:08.000Z">
+<meta property="article:modified_time" content="2022-07-29T14:59:13.955Z">
+<meta property="article:author" content="quora">
+<meta property="article:tag" content="情感">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/cd181634"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '你害怕什么，为什么？',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-07-29 22:59:13'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-block content
-  #post
-    if top_img === false
-      include includes/header/post-info.pug
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-    article#article-container.post-content!=page.content
-    include includes/post/post-copyright.pug
-    .tag_share
-      if (theme.post_meta.post.tags)
-        .post-meta__tag-list
-          each item, index in page.tags.data
-            a(href=url_for(item.path)).post-meta__tags #[=item.name]
-      include includes/third-party/share/index.pug
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-    if theme.reward.enable && theme.reward.QR_code
-      !=partial('includes/post/reward', {}, {cache: true})
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">知乎吧</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">你害怕什么，为什么？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-29T14:52:08.000Z" title="发表于 2022-07-29 22:52:08">2022-07-29</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-29T14:59:13.955Z" title="更新于 2022-07-29 22:59:13">2022-07-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/psychology/">心理学</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="你害怕什么，为什么？"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="回答一"><a href="#回答一" class="headerlink" title="回答一"></a>回答一</h2><p>我曾经向我的一个朋友吐露过我最害怕的事情之一。<br>直到今天，他们仍然嘲笑我。<br>我认为这是一种非常严重的恐惧，应该比现在更认真地对待。只看事实的人！别介意恐惧背后的情感因素。<br>你问我害怕什么？封闭式水滑梯。</p>
+<p>……好吧，你可以别笑了，没那么荒谬。如果你没有看到其中的幽默，那就太棒了，我找到了一个合乎逻辑的人来倾诉我的担忧。<br>但是，说真的，退后一步，想一想。<br>幻灯片本身并没有那么糟糕。<br>当然，如果您以错误的方式使用它，它们可能会构成危险，但它们非常简单。没有什么是正常人可以搞砸的。<br>如果我们把它捡起来一点，我们就会得到水滑梯。<br>现在，水滑梯比普通滑梯更危险。有几十个例子表明人们会从侧面倾斜或错过他们应该降落的游泳池，但他们仍然没有下一个级别那么糟糕。</p>
+<p>为什么你会去一个？<br>有时，它们甚至有循环。环路足够危险，以至于它们的底部甚至还有小门，以防万一您无法一路穿过。<br>而且你不仅要担心在一个封闭的空间里，而且你周围还有水涌出！<br>没有什么比在管子里淹死更好的了，对吧？<br>如果管子甚至不透明，那也无济于事。老实说，听起来像一场噩梦。来自星星，黎明。</p>
+<span id="more"></span>
 
-    //- ad
-    if theme.ad && theme.ad.post
-      .ads-wrap!=theme.ad.post
-
-    if theme.post_pagination
-      include includes/pagination.pug
-    if theme.related_post && theme.related_post.enable
-      != related_posts(page,site.posts)
-
-    if page.comments !== false && theme.comments && theme.comments.use
-      - var commentsJsLoad = true
-      !=partial('includes/third-party/comments/index', {}, {cache: true})
-      
+<h2 id="回答二"><a href="#回答二" class="headerlink" title="回答二"></a>回答二</h2><p>没有人会读到“细节”。</p>
+<p>一般的答案是人类的自私、短视和贪婪驱动的愚蠢。正如…所证明的那样</p>
+<p>法西斯主义在世界各地的兴起。我的意思是，在美国，反动右翼。<br>“白人”民族主义、基督教民族主义（实际上是基督教民族主义）、运动保守主义（这是反动的，一点也不保守）、反民主狂热、不诚实地声称自己是“原旨主义者”和“文本主义者”的法官和法官，当他们实际上所做的只是建立了一个完全虚假但听起来合理的程序，旨在剥夺大多数美国人的自由和公民权利，并证明剥夺这是正当的。这不仅仅发生在美国。法西斯主义正在世界范围内兴起。<br>正在进行的全球气候灾难。这是在我们身上。这个星球已经连续三年成为数百年来有记录以来最热的一年。<br>世界各地的野火。<br>解冻的苔原将活病毒释放到空气中。<br>人类从未接触过的病毒。<br>伦敦 104° F。<br>干旱。很多很多的干旱。到处。已经造成并将越来越多的干旱将迫使整个国家和地区的人口大规模迁移到人类可以忍受的水和温度的地方。当数百万饥饿的人一无所有，决定他们必须搬家或眼睁睁地看着孩子死去时，任何国家都无法“控制其边界”。<br>上周西班牙和葡萄牙的高温导致 2,000 人死亡。<br>加强这个国家和世界沿海城市的巨大成本，以抵御已经开始上升并且在许多地方可能上升多达 6 英尺的海洋。<br>我们被警告说，这在 100 多年前就已经到来。我们一再收到紧急警告，自 1980 年代以来，气候灾难正在迅速向世界袭来。我们基本上什么都没做，就在今天地球开始燃烧时，我读到了那些甚至拒绝考虑减少使用内燃机或化石燃料产生的能源的人的帖子。</p>
+<p>如果我们不让自己被贪婪（我们自己的贪婪和他人的贪婪）误导，不愿忍受哪怕是很小的不便或微不足道的不适，我们本可以在 40 年前对自己的行为进行微小的调整，并防止灾难发生在 40 年前。现在在世界上，但我们拒绝这样做。</p>
+<p>我们有很多借口</p>
+<p>那个国家什么都不做，为什么这个国家要做什么？<br>上帝不会让他的创造物被毁灭。<br>电动车太贵了。此外，如果我想去长途旅行怎么办？<br>太阳能电池板很丑，而且成本很高。<br>没有太阳的时候我们在做什么？<br>没有风时会发生什么？<br>不幸的是，这只是让我害怕的人类自私、短视和贪婪驱动的愚蠢的两个例子。</p>
+<h2 id="回答三"><a href="#回答三" class="headerlink" title="回答三"></a>回答三</h2><p>成长。</p>
+<p>注意：回答很长，有点咆哮。<br>我觉得我的童年正在离我而去。<br>我有一个美好的童年，是家里的老二。尽管是在职父母，但我的父母从未缺席过父母，并确保我和我的兄弟姐妹过上我们能过的最好的生活。从来没有感觉不到任何东西，在任何孩子应得的一切中长大。</p>
+<p>我爸爸是个白手起家的人。<br>他的父母是最低工资的工人，他们一个人抚养了5个孩子。我的祖父在我父亲 14 岁时去世，使他成为家里唯一的男人。他不得不从小就开始工作，多年来一直养活他的妈妈和其他 4 个姐妹。不是完整的自助餐，而是面包和他们能买得起的任何东西，一天只有两次。<br>我的妈妈是我的灵感。</p>
+<p>我会称她为迷你铆工罗西。我的祖母曾经说我的妈妈是一个“有道德指南针的朋克反叛者”。她工作勤奋，照顾着整个房子，毫无瑕疵地抚养了我所有的兄弟姐妹，并且是一个可以激励其他女性的人。我妈妈拥有百日咳和泰语学位，并且可能成为另一个现实中的职业拳击手。<br>他们所有的孩子都学了同样的东西。<br>哥哥遗传了父母勤奋的基因，姐姐遗传了妈妈的态度基因，我遗传了妈妈的生产力基因和爸爸的思维能力。我们所有人都继承了一些母性的呐喊。</p>
+<p>这就是我长大的。<br>坏蛋父母养坏坏孩子。一个幸福的五口之家。<br>现在，已经不一样了。<br>随着岁月的流逝，我的父母不再年轻。他们发现移动困难，经常背痛，不得不依赖药物治疗，并且不像以前那样快乐。他们总是压力山大。<br>我的大哥已经搬出去了——他过着自己喜欢做的​​事情。我为他感到高兴，因为他应得的一切。我的姐姐和以前不一样了。为了节省你一些时间，她是一个你会称之为“有资格的婊子”的人。这些天我们没有说话的条件。</p>
+<p>我觉得我正在失去我的童年，我的家人——我自己。<br>看到我的父母处于这种状态，我感到很痛苦。他们为我们做了这么多，我看不到他们的痛苦或压力。看到自己失去兄弟姐妹很痛苦。我不能因为我的自私而阻止我的兄弟姐妹。<br>我很快就要满 18 岁了。</p>
+<p>每一天，随着我的成熟，我都觉得每一次记忆都比平时更遥远。我知道，我也必须继续前进。我知道，随着我们的成长，我们应该继续前进，思考未来——下一步。但是，说起来容易做起来难。<br>我希望我能永远重温 2012 年。<br>我希望我能改变我的礼物。</p>
+<h2 id="回答四"><a href="#回答四" class="headerlink" title="回答四"></a>回答四</h2><p>现在，一句话就毁掉你的整个人生是多么容易。<br>这是艾米库珀，你可能更了解她作为“中央公园凯伦”。<br>本周，她被拍到在中央公园向一名男子拨打了虚假的 911 电话后，她上了新闻。然而，拨打虚假的 911 电话并不是让她失去工作并使她在可预见的未来成为社会贱民的事情，而是她试图利用该男子是非裔美国人这一事实来暗示他他会受到警察更严厉的对待。</p>
+<p>现在，在我进一步说明之前，我只想明确表示，我相信 Cooper 女士 100% 应该受到她所面临的影响（并且可能还需要刑事指控），她确实无缘无故地将某人的生命置于真正的危险之中，但是她是这种现象的最新例子，令我着迷的是，她在短短两句话的时间里，就摧毁了她的整个人生。<br>这方面的例子太多了，举不胜举，有一个臭名昭著的贾斯汀·萨科（Justine Sacco）的案例，她在起飞 11 小时的航班前发出了一条种族主义推文，然后在另一端下机并打开手机发现她有不仅被解雇了，而且还成为了全球第一的新闻报道，她的整个行业都在争吵，吹嘘他们再也不会和她合作了。</p>
+<p>还有一位女士 Lindsay Stone，她张贴了一张自己在阿灵顿公墓嘲笑标牌的照片<br>她把这张照片作为她和朋友开的一个笑话的一部分，他们会拍下自己不遵守公共标志的照片，她认为这是作为私人信息发送的，但不小心把它公之于众。随后，她失去了工作，收到了死亡和强奸威胁，并作为患有严重抑郁症的隐士度过了一年没有离开家的生活。<br>然后有一个只被称为“Mr-Hank”的人，他是一名年轻的软件开发人员，他在参加技术会议时向坐在他旁边的朋友低声讲了一个关于“大加密狗”的少年笑话。下一秒，前排的一个女人站了起来，拍下了他的照片，然后在推特上发了一条：</p>
+<p>结果他第二天就被解雇了。<br>所以，事情就是这样。我不以任何方式捍卫上述人的行为，但我确实对社交媒体可以轻松地赶上潮流并彻底摧毁某人的生活感到非常不舒服。<br>如今，生活并不总是黑白分明，能够投身于正义事业并“击败”一个做或说可怕事情的人，这是一种很好的感觉。我知道我有这种感觉，上周我和世界其他人一起在网上贬低艾米·库珀，看到“业力”如此残酷地送给应得的人，感觉很好，但我确实想知道，我们是不是太快了跳到“公开羞辱”作为一种策略，尤其是当焦油一旦应用就永远不会消失的时候？如果您在互联网上感到羞耻，那么无论您做出多少弥补和重塑自己，您都将永远是“十年前说出种族主义言论的那个人”。</p>
+<p>我不了解你们，但我敢肯定，我在过去年轻且愚蠢的时候说过的话，剥离所有背景并在互联网上贴满 10 英尺高，可以用来让我成为一个应该失去工作并且永远不会再进入社会的怪物，我很高兴我的青少年时期还没有社交媒体。我敢肯定很多人会偷偷承认相同的，我希望人们学会在点击发送之前记住这一点。<br>如果您对这个主题感兴趣，Jon Ronson 的以下文章比我更有说服力地谈论这些案例和其他案例：一条愚蠢的推文如何炸毁贾斯汀·萨科的生活</p>
+<h2 id="回答五"><a href="#回答五" class="headerlink" title="回答五"></a>回答五</h2><p>时间流逝</p>
+<p>生与死是凡人的必然命运<br>我们的生活是人、地方、感觉、情感和文字的马赛克拼凑成一件独特的艺术作品<br>作为人类，改变、适应和顺应我们的各种情况是我们的天性<br>我们长大成人版的自己<br>当然，到那时我们应该把一切都弄清楚<br>正确的？</p>
+<p>在更多情况下，情况并非如此<br>它绝对让我害怕。<br>这让我害怕，想知道我将如何在这四堵墙外生存，我称之为我的房间<br>知道我可能永远不会一起生活，我可能永远不会发展出过上我想要的生活所需的技能，这让我感到害怕<br>知道有一天我可能不再有父母指导我，这让我感到害怕<br>我怕我永远是我最反感的人</p>
+<p>我害怕我永远不会成为我想成为的人<br>知道每一秒过去，时间都在流逝，而我没有做任何积极的事情来为不可避免的未来做出贡献，这让我感到害怕<br>我最害怕的是我不会以我想要的方式适应我生活中的情况和阶段<br>你为什么不开始工作Mahnoor？<br>我知道未来在我手中<br>我知道在我十几岁的时候我可以做很多事情来确保我有一个美好的生活<br>我明白现在的学校就是一切，我完全接受这样一个事实，如果我这几年做得不好，未来的结果将取决于我</p>
+<p>我很清楚行动和后果<br>我们的选择在于我们的命运<br>然而，这种意识并不能缓解我胃里的坑<br>它并不能平息对活着和成为我自己的压倒性焦虑<br>它不会改变任何事情<br>无论我是否准备好，生活都会继续<br>时间会继续流逝它不在乎我的担忧或挣扎<br>时间流逝<br>这是我所知道的最可怕的认识<br>Vivamus Moriendum Est<br>我们必须为我们必死而活</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">quora</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/cd181634.html">http://example.com/cd181634.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">知乎吧</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/feeling/">情感</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/df55c0b1.html"><img class="prev-cover" src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">边缘性人格障碍和自闭症有什么区别？</div></div></a></div><div class="next-post pull-right"><a href="/4c835e3f.html"><img class="next-cover" src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">只喝可乐不喝水，身体会怎样？</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/4881c9c7.html" title="关于爱情的一些心理事实是什么？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">关于爱情的一些心理事实是什么？</div></div></a></div><div><a href="/6040183.html" title="你怎么能用心理学来操纵人呢？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">你怎么能用心理学来操纵人呢？</div></div></a></div><div><a href="/5f276666.html" title="谁是世界上最孤独的人？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">谁是世界上最孤独的人？</div></div></a></div><div><a href="/6d9166d4.html" title="有哪些简单但有用的心理事实？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">有哪些简单但有用的心理事实？</div></div></a></div><div><a href="/51c50ba0.html" title="心理学如何评价一个正常人？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-28</div><div class="title">心理学如何评价一个正常人？</div></div></a></div><div><a href="/6cf486e7.html" title="有哪些很酷的心理技巧？"><img class="cover" src="/" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-28</div><div class="title">有哪些很酷的心理技巧？</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">quora</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E7%AD%94%E4%B8%80"><span class="toc-number">1.</span> <span class="toc-text">回答一</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E7%AD%94%E4%BA%8C"><span class="toc-number">2.</span> <span class="toc-text">回答二</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E7%AD%94%E4%B8%89"><span class="toc-number">3.</span> <span class="toc-text">回答三</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E7%AD%94%E5%9B%9B"><span class="toc-number">4.</span> <span class="toc-text">回答四</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E7%AD%94%E4%BA%94"><span class="toc-number">5.</span> <span class="toc-text">回答五</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/683f72ef.html" title="你认为应该禁止考试吗？为什么？">你认为应该禁止考试吗？为什么？</a><time datetime="2022-08-01T03:40:01.000Z" title="发表于 2022-08-01 11:40:01">2022-08-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/df55c0b1.html" title="边缘性人格障碍和自闭症有什么区别？">边缘性人格障碍和自闭症有什么区别？</a><time datetime="2022-08-01T03:31:56.000Z" title="发表于 2022-08-01 11:31:56">2022-08-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/cd181634.html" title="你害怕什么，为什么？">你害怕什么，为什么？</a><time datetime="2022-07-29T14:52:08.000Z" title="发表于 2022-07-29 22:52:08">2022-07-29</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/4c835e3f.html" title="只喝可乐不喝水，身体会怎样？">只喝可乐不喝水，身体会怎样？</a><time datetime="2022-07-29T14:34:15.000Z" title="发表于 2022-07-29 22:34:15">2022-07-29</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/75fca8ab.html" title="有哪些令人震惊的事实，听起来不真实，但实际上是真实的？">有哪些令人震惊的事实，听起来不真实，但实际上是真实的？</a><time datetime="2022-07-29T09:14:15.000Z" title="发表于 2022-07-29 17:14:15">2022-07-29</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By quora</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
