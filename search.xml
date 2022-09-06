@@ -6216,4 +6216,23 @@
         <tag>新闻</tag>
       </tags>
   </entry>
+  <entry>
+    <title>怎样去掉Blooger底部的版权信息？</title>
+    <url>/71614164.html</url>
+    <content><![CDATA[<ol>
+<li>【主题背景】-&gt;【自定义】-&gt;【修改 HTML】<br><img src="/img/20220906p1001.png" alt="img"></li>
+<li>点【跳转微部件】-&gt;【Attribution1】<br><img src="/img/20220906p1002.png" alt="img"><br>修改<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">locked=&#x27;false&#x27;</span><br></pre></td></tr></table></figure></li>
+<li>保存后返回，点【布局】<br>找到底部【页脚】来源出处，点【修改】-&gt;【移除】<br><img src="/img/20220906p1003.png" alt="img"></li>
+<li>添加自己的版权信息，点【footer-1】添加小工具<br><img src="/img/20220906p1004.png" alt="img"></li>
+<li>添加【HTML&#x2F;JavaScript】<br><img src="/img/20220906p1005.png" alt="img"><br>输入自己的代码<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@2022  &lt;a href=&#x27;https:www.quora8.cn&#x27;&gt;知乎吧&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<img src="/img/20220906p1006.png" alt="img"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>google</tag>
+      </tags>
+  </entry>
 </search>
