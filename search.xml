@@ -6501,7 +6501,7 @@
 </ol>
 <p>我们希望是在自己的独立域名下提交sitemap</p>
 <ol start="3">
-<li>通过其他网址提交sitemap<br>我这个网站是用github pages做的。<br><a href="http://www.quora8.cn是可以上传文件的,/">www.quora8.cn是可以上传文件的，</a><br>我把<a href="http://www.code2u.top的sitemap文件命名为：code2u-sitemap.xml">www.code2u.top的sitemap文件命名为：code2u-sitemap.xml</a><br>然后提交，得到<a href="http://www.code2u.top/code2u.sitemap.xml">www.code2u.top/code2u.sitemap.xml</a></li>
+<li>通过其他网址提交sitemap<br>我这个网站是用github pages做的。<br><a href="http://www.quora8.cn是可以上传文件的,/">www.quora8.cn是可以上传文件的，</a><br>我把 <a href="http://www.code2u.top/">www.code2u.top</a> 的sitemap文件命名为：code2u-sitemap.xml<br>然后提交，得到 <a href="http://www.quora8.cn/code2u.sitemap.xml">www.quora8.cn/code2u.sitemap.xml</a></li>
 </ol>
 <p>把这个网址提交到google search console就可以提交code2u.top的sitemap了。</p>
 <p>我是怎样发现这个的？<br>有个网站：pro-sitemaps.com<br>说是可以帮我自动提交blogger的sitemap<br>我按照提示操作之后，发现它在google search console中添加了一个网址。</p>
