@@ -6472,15 +6472,40 @@
 <p>谷歌搜索控制台是谷歌最好的工具（我认为）。如果你想 分析你的网站在谷歌搜索引擎上的整体表现，那么你必须使用这个工具。</p>
 <p>它有很多好处，例如：</p>
 <p>它显示您的网站在特定时间段内的总展示次数和总点击次数。<br>它显示有关您的关键字的详细信息，例如哪些关键字已在 Google 上显示，哪些关键字表现最佳等等。<br>它会显示您网页的详细信息、内容（例如哪些网页经常出现在 Google 上）、总点击次数、总展示次数等等。<br>它显示您的用户从哪些国家&#x2F;地区查看您的网站。<br>它有助于解决索引问题。<br>还有很多。<br>请务必使用此工具。</p>
-<p>其他附加工具<br>谷歌我的商家</p>
-<hr>
-<p><a href="https://www.google.com/intl/en_us/business">https://www.google.com/intl/en_us/business</a></p>
+<p>其他附加工具</p>
+<h2 id="谷歌我的商家"><a href="#谷歌我的商家" class="headerlink" title="谷歌我的商家"></a>谷歌我的商家</h2><p><a href="https://www.google.com/intl/en_us/business">https://www.google.com/intl/en_us/business</a></p>
 <p>最后但并非最不重要的一点是，Google 的另一个出色工具是 Google My Business。它有助于 提高您在 Google 搜索引擎上的业务影响力。您只需提供有关您的业务的详细信息，并帮助 Google 上的用户找到您的业务。</p>
 <p>它可以帮助您出现在 Google 搜索中，用户将能够更轻松地搜索您的产品和服务。</p>
 <p>我们都知道 Google 的用户群。您的业​​务在 Google 上的知名度越高，您网站的流量就越多，从而产生更多的潜在客户和销售额。</p>
 <p>如果您还希望您的商家出现在 Google 上，如下所示，那么您必须使用 Google 我的商家。</p>
 <p>综上所述</p>
 <p>这些是每个人都必须使用的 8 个免费的 Google SEO 工具。这些工具肯定会帮助您优化您的网站。<br>我希望这篇文章对你有所帮助。</p>
+]]></content>
+      <categories>
+        <category>SEO</category>
+      </categories>
+      <tags>
+        <tag>google</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>google blogger绑定域名后怎样提交sitemap?</title>
+    <url>/c30f6e21.html</url>
+    <content><![CDATA[<p>结论：<br>可以通过其他网址提交sitemap</p>
+<ol>
+<li>blogger本身是会自动生成sitemap的<br><a href="https://www.code2u.top/sitemap.xml">https://www.code2u.top/sitemap.xml</a><br>是自动存在的。</li>
+</ol>
+<p>但是在google search console无法提交，<br>原因不知道是什么，据说.top域名无法提交。<br>默认的code2cn.blogspot.com是可以提交sitemap的。</p>
+<ol start="2">
+<li>sitemap生成工具<br>google中搜索：blogger sitemap generator<br>会找到非常多的生成sitemap的工具，<br>但是都只能在blogspot.com二级域名下提交。</li>
+</ol>
+<p>我们希望是在自己的独立域名下提交sitemap</p>
+<ol start="3">
+<li>通过其他网址提交sitemap<br>我这个网站是用github pages做的。<br><a href="http://www.quora8.cn是可以上传文件的,/">www.quora8.cn是可以上传文件的，</a><br>我把<a href="http://www.code2u.top的sitemap文件命名为：code2u-sitemap.xml">www.code2u.top的sitemap文件命名为：code2u-sitemap.xml</a><br>然后提交，得到<a href="http://www.code2u.top/code2u.sitemap.xml">www.code2u.top/code2u.sitemap.xml</a></li>
+</ol>
+<p>把这个网址提交到google search console就可以提交code2u.top的sitemap了。</p>
+<p>我是怎样发现这个的？<br>有个网站：pro-sitemaps.com<br>说是可以帮我自动提交blogger的sitemap<br>我按照提示操作之后，发现它在google search console中添加了一个网址。</p>
+<p>然后用这个网址帮我提交sitemap<br>如果是这样，我自己完全可以做到，何必通过别人的网址。<br>我自己也有很多网站。</p>
 ]]></content>
       <categories>
         <category>SEO</category>
