@@ -6541,4 +6541,19 @@
         <tag>生活</tag>
       </tags>
   </entry>
+  <entry>
+    <title>在Blogger中加入返回顶部的Go Top按钮</title>
+    <url>/6d031214.html</url>
+    <content><![CDATA[<p>不需要修改模板，直接进入blogger后台-&gt;布局-&gt;footer1<br>添加小工具，复制下面的代码即可。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!-- go top --&gt;</span><br><span class="line"> &lt;!-- Js控制 --&gt;</span><br><span class="line">&lt;script src=&#x27;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#x27;&gt;&lt;/script&gt;</span><br><span class="line">    &lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">    $(function()&#123;</span><br><span class="line">        $(&quot;#gotop&quot;).click(function()&#123;</span><br><span class="line">            jQuery(&quot;html,body&quot;).animate(&#123;</span><br><span class="line">                scrollTop:0</span><br><span class="line">            &#125;,700);</span><br><span class="line">        &#125;);</span><br><span class="line">        $(window).scroll(function() &#123;</span><br><span class="line">            if ( $(this).scrollTop() &gt; 450)&#123;</span><br><span class="line">                $(&#x27;#gotop&#x27;).fadeIn(&quot;fast&quot;);</span><br><span class="line">            &#125; else &#123;</span><br><span class="line">                $(&#x27;#gotop&#x27;).stop().fadeOut(&quot;fast&quot;);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">    &lt;!-- 以下是样式设置 --&gt;</span><br><span class="line">    &lt;style type=&#x27;text/css&#x27;&gt;</span><br><span class="line">    #gotop &#123; /* 控制Top按钮的css */</span><br><span class="line">        z-index: 1;</span><br><span class="line">        display: none;</span><br><span class="line">        position: fixed;</span><br><span class="line">        right: 30px; /* 距离右边的距离 */</span><br><span class="line">        bottom: 25px;/* 距离底部的距离 */</span><br><span class="line">        padding: 10px 10px;  /* 文字显示位置 */</span><br><span class="line">        font-size: 25px;/* 文字大小 */</span><br><span class="line">        background: #4682B4;/* 背景颜色 */</span><br><span class="line">        color: #FFF;/* 文字颜色 */</span><br><span class="line">        cursor: pointer;</span><br><span class="line">        border-radius: 5px;</span><br><span class="line">    &#125;</span><br><span class="line">    &lt;/style&gt;</span><br><span class="line">&lt;!-- go top end --&gt;</span><br><span class="line"></span><br><span class="line">&lt;div id=&#x27;gotop&#x27; &gt;&lt;center&gt;&amp;#65087;&lt;/center&gt;Top&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>可以根据自己的喜好，修改背景和文字。</p>
+]]></content>
+      <categories>
+        <category>SEO</category>
+      </categories>
+      <tags>
+        <tag>google</tag>
+      </tags>
+  </entry>
 </search>
