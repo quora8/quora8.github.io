@@ -6770,4 +6770,45 @@
         <tag>生活</tag>
       </tags>
   </entry>
+  <entry>
+    <title>什么是开发者的终极搜索引擎 - You.com vs Google vs DDG</title>
+    <url>/cb467c2.html</url>
+    <content><![CDATA[<p>作为开发人员，我们每天都依赖于良好的搜索结果。轻松找到我们需要的东西可以对我们的生产力产生重大影响。一个名为 You.com 的新搜索引擎承诺提供许多专门针对开发人员的功能，旨在加快我们的工作流程。我想将它与 DuckDuckGo（一个流行且面向隐私的搜索引擎）和 Google 进行比较，这可能是大多数开发人员的默认设置。</p>
+<p>查询 #1<br>python euclidean distance</p>
+<p><a href="https://you.com/search?q=python+euclidean+distance">https://you.com/search?q=python+euclidean+distance</a></p>
+<p><a href="https://duckduckgo.com/?q=python+euclidean+distance">https://duckduckgo.com/?q=python+euclidean+distance</a></p>
+<p><a href="https://www.google.com/search?q=python+euclidian+distance">https://www.google.com/search?q=python+euclidian+distance</a></p>
+<p>首先，我想知道如何在 Python 中计算欧几里得距离。You.com 和 Google 都展示了来自 StackOverflow 和相关网站的出色结果。我发现的主要区别是结果的呈现方式。</p>
+<p>You.com 允许我在搜索结果页面的右侧面板中预览和复制 StackOverflow 的代码片段。不错。此外，我不必单独单击每个链接，而是可以在水平栏中同时看到多个答案。我依赖的大多数网站都支持这些功能——StackOverflow、W3 Schools 和 Towards Data Science 等等。</p>
+<p>使用 Google，我也找到了我需要的东西，尽管它比使用 You.com 花费了我更多的时间。我首先必须点击网站，环顾四周，找到答案（可能会被网站上的其他内容分心）。</p>
+<p>DuckDuckGo 的结果与 Google 的结果相似，尽管我不喜欢前两个链接是广告，即使 Google 也没有向我显示此查询的任何广告。</p>
+<p>查询 #2<br>python数组长度</p>
+<p><a href="https://you.com/search?q=python+array+length">https://you.com/search?q=python+array+length</a></p>
+<p><a href="https://duckduckgo.com/?q=python+array+length">https://duckduckgo.com/?q=python+array+length</a></p>
+<p><a href="https://www.google.com/search?q=python+array+length">https://www.google.com/search?q=python+array+length</a></p>
+<p>我想在一个非常基本的查询上测试 You.com、DDG 和 Google，并研究如何在 Python 中确定数组的长度。同样，所有引擎的排名结果都做得很好。这三个引擎都向我展示了 W3Schools 页面和相关的 askpython.com 文章以及答案。</p>
+<p>然而，同样，You.com 的结果更容易访问，从而节省了我的时间。我可以直接从搜索结果页面查看并复制答案。我还发现 You.com 在应用程序中的结果在视觉上非常漂亮。</p>
+<p>使用 Google 和 DDG，我还找到了我搜索的内容 - 但必须先打开网站或在 Google 的快速事实应用程序中找到答案，这都花了我更多时间。DDG 再次展示了令我分心的广告。</p>
+<p>查询 #3<br>遗传算法python代码</p>
+<p><a href="https://you.com/search?q=genetic+algorithm+python+code">https://you.com/search?q=genetic+algorithm+python+code</a></p>
+<p><a href="https://duckduckgo.com/?q=genetic+algorithm+python+code">https://duckduckgo.com/?q=genetic+algorithm+python+code</a></p>
+<p><a href="https://www.google.com/search?q=%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95python%E4%BB%A3%E7%A0%81">https://www.google.com/search?q=遗传算法python代码</a></p>
+<p>我最近看到了一个用 Python 建模自然选择的 Youtube 视频。我决定自己尝试类似的东西。在搜索遗传算法的 Python 代码时，Google 和 DuckDuckGo 提供了一些很棒的库和博客文章。</p>
+<p>我对结果总体上很满意，但更喜欢 You.com 的结果。以水平视图查看来自 Towards Data Science 的文章，以及从搜索结果页面直接浏览的 Github 存储库，为我提供了更多样化的搜索结果并更快地更好地概述了该主题。DuckDuckGo 的广告再次让人分心，而且没有真正的相关性。</p>
+<p>查询 #4<br>最好的python机器学习课程</p>
+<p><a href="https://you.com/search?q=%E6%9C%80%E5%A5%BD%E7%9A%84python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B">https://you.com/search?q=最好的python机器学习课程</a></p>
+<p><a href="https://duckduckgo.com/?q=best+python+machine+learning+course">https://duckduckgo.com/?q=best+python+machine+learning+course</a></p>
+<p><a href="https://www.google.com/search?hl=en&amp;q=%E6%9C%80%E5%A5%BD%E7%9A%84python%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B">https://www.google.com/search?hl=en&amp;q=最好的python机器学习课程</a></p>
+<p>一段时间以来，我一直想加深我的机器学习技能，所以我在 Google、DDG 和 You.com 上搜索了最好的 Python 机器学习课程。我认为屏幕截图给人留下了很好的印象，说明结果有多么不同。</p>
+<p>在 Google 上，前 4 个（！）网站是广告。我几乎没有在第一页上看到有机结果，而无需滚动。DDG 在这里做得更好，只给我展示了两个广告和一些相关文章。与此相比，You.com 的成绩非常出色。第一个结果是 Coursera 课程在其自己的应用程序中整齐地呈现，并且能够水平滚动以快速了解课程。不必访问该站点，仍然可以获得我需要的所有信息，这是一个实时保护程序。</p>
+<p>下一个结果是最近的一篇博客文章，其中包含一些很棒的高质量课程推荐。Reddit 是任何查询的重要且有价值的来源。我还将 Reddit 设置为首选来源，并直接从搜索结果页面看到来自不同 subreddit 的多个线程。</p>
+<p>结论<br>使用所有三个搜索引擎，您将能够找到所需的内容。但是，You.com 对开发人员和功能的特别关注，例如从搜索结果页面复制代码片段的能力以及对 StackOverflow 或 Github 等常用网站的应用程序支持，让您更快、更轻松地找到所需内容。</p>
+]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>google</tag>
+      </tags>
+  </entry>
 </search>
