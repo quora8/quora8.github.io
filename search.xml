@@ -6980,4 +6980,24 @@
         <tag>苹果</tag>
       </tags>
   </entry>
+  <entry>
+    <title>4 大 AI 自动补全编码工具</title>
+    <url>/b2483690.html</url>
+    <content><![CDATA[<h2 id="CodeComplete"><a href="#CodeComplete" class="headerlink" title="CodeComplete"></a>CodeComplete</h2><p>CodeComplete 是搜索引擎You.com的 AI 编码助手。与 GitHub 的 Copilot 类似，您可以输入关于您需要什么以及代码应该使用哪种语言编写的评论，并立即获得结果。但是，与 Copilot 和大多数其他代码完成工具相比，CodeComplete 独立于您的编码环境工作，并允许您将代码段粘贴到您最喜欢的任何环境中。我喜欢在编码时总是在我的第二个屏幕上打开它。它工作得很好，并且真正节省了时间。</p>
+<p><a href="https://you.com/search?q=code+complete">https://you.com/search?q=code+complete</a></p>
+<h2 id="GitHub-Copilot"><a href="#GitHub-Copilot" class="headerlink" title="GitHub Copilot"></a>GitHub Copilot</h2><p>GitHub Copilot 是我们大多数人可能都知道的工具。可作为许多流行编辑器的扩展，就像使用 CodeComplete 一样，您可以输入您想要的代码的注释，Copilot 将为您创建它。但是，您必须将其用作支持的编辑器之一的扩展。看到 Copilot 的出色表现仍然令人惊讶。这也是一个绝对的节省时间。</p>
+<p><a href="https://github.com/features/copilot/">https://github.com/features/copilot/</a></p>
+<h2 id="Cogram"><a href="#Cogram" class="headerlink" title="Cogram"></a>Cogram</h2><p>Cogram 是一家位于柏林的初创公司，它是一种代码生成工具，适用于使用 SQL 查询和 Jupyter Notebooks 的数据科学家和 Python 程序员。使用 Cogram，您可以用英语编写查询，然后该工具将其转换为具有连接和分组的复杂 SQL 查询。它支持 SQLite、PostgreSQL 和 MySQL。这是所有数据科学家的必备品！</p>
+<p><a href="https://www.cogram.com/">https://www.cogram.com/</a></p>
+<h2 id="Tabnine"><a href="#Tabnine" class="headerlink" title="Tabnine"></a>Tabnine</h2><p>最后，与 CodeComplete 和 Copilot 类似，Tabnine 是一个全行全功能的代码补全工具。我发现 Tabnine 最大的优势在于其自动完成功能。Tabnine 作为扩展提供，支持所有主要的 IDE，而且比 Copilot 多得多。Tabnine 的第一个版本是 Jacob Jackson 在他还是滑铁卢大学的学生时用 Rust 开发的。</p>
+<p><a href="https://www.tabnine.com/">https://www.tabnine.com/</a></p>
+<p>您是否曾经使用过其中一种工具，您的使用体验如何？您还有其他可以推荐的 AI 工具吗？</p>
+]]></content>
+      <categories>
+        <category>科技</category>
+      </categories>
+      <tags>
+        <tag>google</tag>
+      </tags>
+  </entry>
 </search>
