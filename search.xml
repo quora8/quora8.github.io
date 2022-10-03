@@ -7584,4 +7584,20 @@
         <tag>生活</tag>
       </tags>
   </entry>
+  <entry>
+    <title>在侧边工具栏显示相关文章推荐的wordpress插件</title>
+    <url>/4cef4b0b.html</url>
+    <content><![CDATA[<p>相关文章推荐，一般都在底部，<br>我总感觉在侧栏推荐更有意义，<br>因为一般人很难从头看到尾，<br>起码是我的习惯，我一般只注意到侧边栏的推荐。<br>我是个程序员，文章底部我总感觉是引用或者版权链接。</p>
+<h2 id="什么插件可以在侧边栏显示推荐阅读？"><a href="#什么插件可以在侧边栏显示推荐阅读？" class="headerlink" title="什么插件可以在侧边栏显示推荐阅读？"></a>什么插件可以在侧边栏显示推荐阅读？</h2><p>其实就是大家都知道的：<br>Contextual Related Posts<br><a href="https://cn.wordpress.org/plugins/contextual-related-posts/">https://cn.wordpress.org/plugins/contextual-related-posts/</a></p>
+<p>只不过我当时以为这个插件只能在底部推荐，<br>后来研究了一下才发现还可以在侧栏推荐，<br>具体方法就是，首先你得先安装“经典小工具”<br>然后在小工具里添加Related Posts [CRP]<br><img src="/img/20221003.png" alt="img"></p>
+<p>插件这个东西，也不需要通过别人学习。<br>1、关键字：Related Posts<br>得知道英文怎么写。<br>2、可以通过翻译工具了解插件使用方法。<br>可能国外人的习惯跟国人不同，他们好像不知道我们关键需求是什么。<br>比如怎样在侧栏显示文章推荐，我就研究了半天才搞清楚。</p>
+<p>希望对您有帮助。</p>
+]]></content>
+      <categories>
+        <category>SEO</category>
+      </categories>
+      <tags>
+        <tag>wordpress</tag>
+      </tags>
+  </entry>
 </search>
