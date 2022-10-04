@@ -7600,4 +7600,34 @@
         <tag>wordpress</tag>
       </tags>
   </entry>
+  <entry>
+    <title>wordpress强调标签&lt;code&gt;美化</title>
+    <url>/7c823919.html</url>
+    <content><![CDATA[<p>上代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">code &#123;</span><br><span class="line">    border-radius: 3px;</span><br><span class="line">    border: 1px solid #4682b4;</span><br><span class="line">    background-color:#4682b4;</span><br><span class="line">    font-weight:bold;</span><br><span class="line">    color:red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>不知道标题该怎么起，我看到<code>&lt;code&gt;hi&lt;/code&gt;</code>标签非常难看，<br>仅仅是一个灰色背景，而我希望是一个圆角边框，浅黄色背景，红色加粗文本。<br>我找不到美化的插件，或许代码美化的插件就有这样的功能，但是我没找到。<br>有谁知道请告知一下。</p>
+<p>我只好自己加了段额外代码来美化这个标签。<br>然后想到，或许这才是正确的办法，<br>自己写css，或者找找漂亮的css代码用上，<br>而不是通过使用插件。</p>
+<p>网上找了篇相对是想找的博文，复制如下：</p>
+<h2 id="Styling-Code-In-and-Out-of-Blocks样式代码进出块"><a href="#Styling-Code-In-and-Out-of-Blocks样式代码进出块" class="headerlink" title="Styling Code In and Out of Blocks样式代码进出块"></a>Styling Code In and Out of Blocks样式代码进出块</h2><p>HTML中有一个<code>&lt;code&gt;</code>标签。我实际上只是用它来包装上一句中的那个标签——所以元。<br>它是一个默认内联元素，表示任何类型的代码。它具有应用等宽字体系列的默认（用户代理）样式，<br>感觉就像一个很好的默认设置（确实，大多数代码都是在等宽字体中查看的）。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* User agent styles in all browsers */</span><br><span class="line">code &#123;</span><br><span class="line">  font-family: monospace;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>您可能会在样式表中使用标签本身来设置样式。它只是其中一个元素，直接使用它看起来更自然，而不是将其重置为无样式并选择带有类的样式。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* You&#x27;ll probably do this: */</span><br><span class="line">code &#123;</span><br><span class="line">  /* custom styles */</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* Or maybe scope it to something like: */</span><br><span class="line">article code &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* It seems less common and more annoying to do this: */</span><br><span class="line">code &#123;</span><br><span class="line">  /* reset styles */</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">code.some-class &#123;</span><br><span class="line">  /* opt-in styles */</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>现在在这个网站（v18）上，我应用了一些适度的样式，并将其中一些限定在文本元素中：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* For all &lt;code&gt; */</span><br><span class="line">code &#123;</span><br><span class="line">  font-family: MyFancyCustomFont, monospace;</span><br><span class="line">  font-size: inherit;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* Code in text */</span><br><span class="line">p &gt; code,</span><br><span class="line">li &gt; code,</span><br><span class="line">dd &gt; code,</span><br><span class="line">td &gt; code &#123;</span><br><span class="line">  background: #ffeff0;</span><br><span class="line">  word-wrap: break-word;</span><br><span class="line">  box-decoration-break: clone;</span><br><span class="line">  padding: .1rem .3rem .2rem;</span><br><span class="line">  border-radius: .2rem;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这有帮助的一件事是，比如说，这个：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;h3&gt;The &lt;code&gt;.cool&lt;/code&gt; Class&lt;/h3&gt;</span><br></pre></td></tr></table></figure>
+<p>我的样式仍然会使其成为一个不错的等宽字体，将其大小设置为与标题相同，但不应用我喜欢的背景颜色和填充内容作为文本中的代码。</p>
+<p>对于作用域样式来说，更大的问题<code>&lt;code&gt;</code>是这个非常常见的标记：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;pre&gt;&lt;code&gt;</span><br><span class="line">  example code block</span><br><span class="line">&lt;/code&gt;&lt;/pre&gt;</span><br></pre></td></tr></table></figure>
+<p>该<code>&lt;pre&gt;</code>标记对于显示代码块很重要，因为它尊重 HTML 中的空白。但在语义上，它只是意味着“预先格式化的文本”。如果它是一个代码块，也应该有一个<code>&lt;code&gt;</code>标签。但是<code>&lt;code&gt;</code>，请记住，是一个内联元素。另外，您希望它在句子中的外观很可能与您希望它在一个块中的外观完全不同。</p>
+<p>线程中有一个混乱的时刻：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* this was working */</span><br><span class="line">.post :not(pre) code &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* and this was not */</span><br><span class="line">:not(pre) code &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>第二个“根”选择器的问题在于它:not(pre)会匹配事物（如<code>&lt;body&gt;</code>）并因此应用这些样式。在帖子中（第一个示例），它只会选择一些东西——比如段落标签和图像等——因此表现得更符合预期。我认为这是一个很好的方法。这只是对该<code>&lt;code&gt;</code>标签进行范围界定的另一种方式，这样它在特定元素内时不会获得某些样式，因为<code>&lt;pre&gt;</code>标签是主要关注点。</p>
+<p>我在这个网站上有很多代码块，所以我试着多加一点保护。我专门为标签中的<code>&lt;code&gt;</code>元素<code>&lt;pre&gt;</code>设置了很多样式，以使它们达到我想要的效果，并可能与它们可能具有的任何其他不良样式作斗争。像这样的东西：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pre code &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  background: none;</span><br><span class="line">  white-space: pre;</span><br><span class="line">  -webkit-overflow-scrolling: touch;</span><br><span class="line">  overflow-x: scroll;</span><br><span class="line">  max-width: 100%;</span><br><span class="line">  min-width: 100px;</span><br><span class="line">  padding: 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>我的实际风格更冗长，甚至比这还要冗长。该片段没有什么聪明之处。我只是指出我在代码块中应用了大量的样式，以确保它们输出正确。</p>
+<p>我发现有趣的是，<code>&lt;code&gt;</code>元素的独特之处在于我们倾向于根据上下文对其进行样式设置。</p>
+]]></content>
+  </entry>
 </search>
