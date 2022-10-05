@@ -1,0 +1,182 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>为google blogger生成html格式sitemap | 知乎吧</title><meta name="keywords" content="google"><meta name="author" content="quora"><meta name="copyright" content="quora"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="google不允许上传xml格式的文件，所以无法上传sitemap.xml但是sitemap是有三种模式的:Xml SitemapHtmp SitemapVisual Sitemap 我们可以生成html格式的sitemap然后复制源码中&lt;body&gt;&lt;&#x2F;body&gt;之间的内容，然后发一篇博文。比如：https:&#x2F;&#x2F;www.code2u.top&#x2F;2022&#x2F;09&#x2F;sitemap.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="为google blogger生成html格式sitemap">
+<meta property="og:url" content="https://www.quora8.cn/google-blogger-html-sitemap.html">
+<meta property="og:site_name" content="知乎吧">
+<meta property="og:description" content="google不允许上传xml格式的文件，所以无法上传sitemap.xml但是sitemap是有三种模式的:Xml SitemapHtmp SitemapVisual Sitemap 我们可以生成html格式的sitemap然后复制源码中&lt;body&gt;&lt;&#x2F;body&gt;之间的内容，然后发一篇博文。比如：https:&#x2F;&#x2F;www.code2u.top&#x2F;2022&#x2F;09&#x2F;sitemap.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg">
+<meta property="article:published_time" content="2022-10-05T15:06:52.000Z">
+<meta property="article:modified_time" content="2022-10-05T15:24:01.303Z">
+<meta property="article:author" content="quora">
+<meta property="article:tag" content="google">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><link rel="shortcut icon" href="/img/quora8.ico"><link rel="canonical" href="https://www.quora8.cn/google-blogger-html-sitemap"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-8818511146312414',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ad7df39a167516d33ee65f18309c49bc";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":false,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '为google blogger生成html格式sitemap',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-10-05 23:24:01'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">142</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">知乎吧</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">为google blogger生成html格式sitemap</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-categories"><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/SEO/">SEO</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="为google blogger生成html格式sitemap"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><p>google不允许上传xml格式的文件，所以无法上传sitemap.xml<br>但是sitemap是有三种模式的:<br>Xml Sitemap<br>Htmp Sitemap<br>Visual Sitemap</p>
+<p>我们可以生成html格式的sitemap<br>然后复制源码中<code>&lt;body&gt;&lt;/body&gt;</code>之间的内容，<br>然后发一篇博文。<br>比如：<br><a target="_blank" rel="noopener" href="https://www.code2u.top/2022/09/sitemap.html">https://www.code2u.top/2022/09/sitemap.html</a><br>这样就方便google蜘蛛爬取。</p>
+<p>还可以在网站版权处添加这样的代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&#x27;https://www.code2u.top/2022/09/sitemap.html&#x27;&gt;sitemap&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>提示蜘蛛爬取。</p>
+<p>在这个网站 <a target="_blank" rel="noopener" href="https://www.mysitemapgenerator.com/">https://www.mysitemapgenerator.com</a><br>可以生成html格式的sitemap<br>在生成的时候，选择html格式。</p>
+<h2 id="XML-站点地图与-HTML-站点地图：有什么区别？"><a href="#XML-站点地图与-HTML-站点地图：有什么区别？" class="headerlink" title="XML 站点地图与 HTML 站点地图：有什么区别？"></a>XML 站点地图与 HTML 站点地图：有什么区别？</h2><p>站点地图是技术 SEO 的重要组成部分，可帮助您抓取、索引和发现您的 Magento 网站。搜索引擎读取站点地图以发现新页面，定义它们的更新频率，并根据它们提供的信息的有效性对它们进行排名。</p>
+<p>但是，在生成站点地图时，人们对使用什么站点地图感到困惑。</p>
+<p>因此，在本文中，您将发现 HTML 和 XML 站点地图之间的区别，是否应该同时使用它们，并了解它们如何影响您的</p>
+<h2 id="什么是-XML-站点地图？"><a href="#什么是-XML-站点地图？" class="headerlink" title="什么是 XML 站点地图？"></a>什么是 XML 站点地图？</h2><p>XML 站点地图是使用可扩展标记语言 (XML) 创建的机器可读站点地图，其中包含有关您所有网站 URL 的信息以及元数据。元数据包括有关 URL 的重要性、上次更新时间、更新频率、URL 与站点地图中其他 URL 的关系等信息。</p>
+<p>网站管理员使用 XML 站点地图来帮助搜索引擎更好地了解网站的结构并相应地更快地对其进行索引。此外，所有主要的搜索引擎都使用 XML Sitemap 协议。</p>
+<p>因此，缺少 XML 站点地图可能会导致搜索爬虫无法看到某些页面。 </p>
+<p>如果蜘蛛除了网站的 HTML 结构之外什么都看不到，他们将只对那些通过抓取 HTML 可以发现的页面进行索引和排名。由于并非所有页面都具有相同的链接，因此如果您想获得排名，则不能选择此方案。</p>
+<p>这就是 XML Sitemap 主要用于搜索引擎蜘蛛的原因。 </p>
+<h2 id="什么是-HTML-站点地图？"><a href="#什么是-HTML-站点地图？" class="headerlink" title="什么是 HTML 站点地图？"></a>什么是 HTML 站点地图？</h2><p>HTML 站点地图是用超文本标记语言编写的站点地图，用作您网站页面的链接目录或目录。这是一个包含所有网站页面的总体概述的页面，访问者可以轻松地从这些页面跳转到您的网站。</p>
+<p>尽管 HTML 站点地图对搜索引擎优化没有任何直接影响，但它是为了更好的用户体验。</p>
+<p>由于 Google 和其他搜索引擎确实关注您网站的用户友好性，请考虑为您的 Magento 商店创建 HTML 站点地图。绝对不会是多余的。</p>
+<p>但是，您也不会因为没有它而受到惩罚。</p>
+<h2 id="HTML-和-XML-站点地图有什么区别？"><a href="#HTML-和-XML-站点地图有什么区别？" class="headerlink" title="HTML 和 XML 站点地图有什么区别？"></a>HTML 和 XML 站点地图有什么区别？</h2><p>尽管您现在应该已经掌握了，但让我们再次总结一下。</p>
+<p>HTML 和 XML 站点地图之间的主要区别在于，XML 站点地图用于帮助搜索爬虫浏览您的网站，而 HTML 站点地图引导用户浏览您的商店页面。XML 站点地图以机器人为目标，而 HTML 则以人类为目标。</p>
+<p>如果您想知道最好使用哪一个，答案很简单——两者都有，因为它们都提供了宝贵的好处。</p>
+<p>HTML 和 XML 站点地图的好处<br>正如您可能已经在页面内容中注意到的那样，本文中没有提到任何缺点。</p>
+<p>不，我们不想通过隐藏陷阱来说服您使用站点地图。根本没有陷阱，只有好处。</p>
+<p>我们将从 HTML 站点地图的好处开始：</p>
+<p>内部链接机会——站点地图是一个包含多个内部网站链接的页面，可让您跳转到商店的任何页面，这是一个很好的内部链接资产。<br>更好 的网站导航——无论您是否有存档内容，站点地图都可以是所有可访问页面的目录，从而改进导航。<br>改进的抓取起点 ——因为 HTML 站点地图是一个带有锚链接的页面，它对于可以发现并索引放置在那里的页面的搜索爬虫来说非常方便。<br>XML 站点地图为您的商店带来的好处：</p>
+<p>避免内容重复问题——XML 站点地图向搜索引擎显示内容发布的日期甚至时间，这可以验证您是内容的所有者，以防在未经您许可的情况下复制内容。<br>更好的网站可抓取性——包含您所有的网站页面，站点地图使搜索引擎蜘蛛更容易抓取和发现这些页面，即使有些页面没有任何内部链接。<br>更快的页面索引— XML 站点地图是通知搜索引擎有关新内容或已编辑内容的最佳方式，这可以提高索引并提高搜索排名。</p>
+<p>google blogger绑定域名后怎样提交sitemap?<br><a href="https://www.quora8.cn/c30f6e21.html">https://www.quora8.cn/c30f6e21.html</a></p>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/google/">google</a></div><div class="post_share"></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/7c823919.html"><img class="next-cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">wordpress强调标签&lt;code&gt;美化</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">quora</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">142</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://code.quora8.cn"><i class="fab fa-github"></i><span>代码吧</span></a></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#XML-%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%E4%B8%8E-HTML-%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%EF%BC%9A%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="toc-number">1.</span> <span class="toc-text">XML 站点地图与 HTML 站点地图：有什么区别？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-XML-%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%EF%BC%9F"><span class="toc-number">2.</span> <span class="toc-text">什么是 XML 站点地图？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-HTML-%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%EF%BC%9F"><span class="toc-number">3.</span> <span class="toc-text">什么是 HTML 站点地图？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HTML-%E5%92%8C-XML-%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="toc-number">4.</span> <span class="toc-text">HTML 和 XML 站点地图有什么区别？</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/google-blogger-html-sitemap.html" title="为google blogger生成html格式sitemap">为google blogger生成html格式sitemap</a><time datetime="2022-10-05T15:06:52.000Z" title="发表于 2022-10-05 23:06:52">2022-10-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/7c823919.html" title="wordpress强调标签&lt;code&gt;美化">wordpress强调标签&lt;code&gt;美化</a><time datetime="2022-10-04T00:57:30.000Z" title="发表于 2022-10-04 08:57:30">2022-10-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/4cef4b0b.html" title="在侧边工具栏显示相关文章推荐的wordpress插件">在侧边工具栏显示相关文章推荐的wordpress插件</a><time datetime="2022-10-03T16:50:36.000Z" title="发表于 2022-10-04 00:50:36">2022-10-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/99b6d80f.html" title="Wish和Hope的区别">Wish和Hope的区别</a><time datetime="2022-10-03T03:06:31.000Z" title="发表于 2022-10-03 11:06:31">2022-10-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/97585d1a.html" title="wordpress 网站加载缓慢的 10 大原因">wordpress 网站加载缓慢的 10 大原因</a><time datetime="2022-10-02T11:53:50.000Z" title="发表于 2022-10-02 19:53:50">2022-10-02</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By quora</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

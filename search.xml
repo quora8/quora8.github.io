@@ -7636,4 +7636,42 @@
         <tag>wordpress</tag>
       </tags>
   </entry>
+  <entry>
+    <title>为google blogger生成html格式sitemap</title>
+    <url>/google-blogger-html-sitemap.html</url>
+    <content><![CDATA[<p>google不允许上传xml格式的文件，所以无法上传sitemap.xml<br>但是sitemap是有三种模式的:<br>Xml Sitemap<br>Htmp Sitemap<br>Visual Sitemap</p>
+<p>我们可以生成html格式的sitemap<br>然后复制源码中<code>&lt;body&gt;&lt;/body&gt;</code>之间的内容，<br>然后发一篇博文。<br>比如：<br><a href="https://www.code2u.top/2022/09/sitemap.html">https://www.code2u.top/2022/09/sitemap.html</a><br>这样就方便google蜘蛛爬取。</p>
+<p>还可以在网站版权处添加这样的代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&#x27;https://www.code2u.top/2022/09/sitemap.html&#x27;&gt;sitemap&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>提示蜘蛛爬取。</p>
+<p>在这个网站 <a href="https://www.mysitemapgenerator.com/">https://www.mysitemapgenerator.com</a><br>可以生成html格式的sitemap<br>在生成的时候，选择html格式。</p>
+<h2 id="XML-站点地图与-HTML-站点地图：有什么区别？"><a href="#XML-站点地图与-HTML-站点地图：有什么区别？" class="headerlink" title="XML 站点地图与 HTML 站点地图：有什么区别？"></a>XML 站点地图与 HTML 站点地图：有什么区别？</h2><p>站点地图是技术 SEO 的重要组成部分，可帮助您抓取、索引和发现您的 Magento 网站。搜索引擎读取站点地图以发现新页面，定义它们的更新频率，并根据它们提供的信息的有效性对它们进行排名。</p>
+<p>但是，在生成站点地图时，人们对使用什么站点地图感到困惑。</p>
+<p>因此，在本文中，您将发现 HTML 和 XML 站点地图之间的区别，是否应该同时使用它们，并了解它们如何影响您的</p>
+<h2 id="什么是-XML-站点地图？"><a href="#什么是-XML-站点地图？" class="headerlink" title="什么是 XML 站点地图？"></a>什么是 XML 站点地图？</h2><p>XML 站点地图是使用可扩展标记语言 (XML) 创建的机器可读站点地图，其中包含有关您所有网站 URL 的信息以及元数据。元数据包括有关 URL 的重要性、上次更新时间、更新频率、URL 与站点地图中其他 URL 的关系等信息。</p>
+<p>网站管理员使用 XML 站点地图来帮助搜索引擎更好地了解网站的结构并相应地更快地对其进行索引。此外，所有主要的搜索引擎都使用 XML Sitemap 协议。</p>
+<p>因此，缺少 XML 站点地图可能会导致搜索爬虫无法看到某些页面。 </p>
+<p>如果蜘蛛除了网站的 HTML 结构之外什么都看不到，他们将只对那些通过抓取 HTML 可以发现的页面进行索引和排名。由于并非所有页面都具有相同的链接，因此如果您想获得排名，则不能选择此方案。</p>
+<p>这就是 XML Sitemap 主要用于搜索引擎蜘蛛的原因。 </p>
+<h2 id="什么是-HTML-站点地图？"><a href="#什么是-HTML-站点地图？" class="headerlink" title="什么是 HTML 站点地图？"></a>什么是 HTML 站点地图？</h2><p>HTML 站点地图是用超文本标记语言编写的站点地图，用作您网站页面的链接目录或目录。这是一个包含所有网站页面的总体概述的页面，访问者可以轻松地从这些页面跳转到您的网站。</p>
+<p>尽管 HTML 站点地图对搜索引擎优化没有任何直接影响，但它是为了更好的用户体验。</p>
+<p>由于 Google 和其他搜索引擎确实关注您网站的用户友好性，请考虑为您的 Magento 商店创建 HTML 站点地图。绝对不会是多余的。</p>
+<p>但是，您也不会因为没有它而受到惩罚。</p>
+<h2 id="HTML-和-XML-站点地图有什么区别？"><a href="#HTML-和-XML-站点地图有什么区别？" class="headerlink" title="HTML 和 XML 站点地图有什么区别？"></a>HTML 和 XML 站点地图有什么区别？</h2><p>尽管您现在应该已经掌握了，但让我们再次总结一下。</p>
+<p>HTML 和 XML 站点地图之间的主要区别在于，XML 站点地图用于帮助搜索爬虫浏览您的网站，而 HTML 站点地图引导用户浏览您的商店页面。XML 站点地图以机器人为目标，而 HTML 则以人类为目标。</p>
+<p>如果您想知道最好使用哪一个，答案很简单——两者都有，因为它们都提供了宝贵的好处。</p>
+<p>HTML 和 XML 站点地图的好处<br>正如您可能已经在页面内容中注意到的那样，本文中没有提到任何缺点。</p>
+<p>不，我们不想通过隐藏陷阱来说服您使用站点地图。根本没有陷阱，只有好处。</p>
+<p>我们将从 HTML 站点地图的好处开始：</p>
+<p>内部链接机会——站点地图是一个包含多个内部网站链接的页面，可让您跳转到商店的任何页面，这是一个很好的内部链接资产。<br>更好 的网站导航——无论您是否有存档内容，站点地图都可以是所有可访问页面的目录，从而改进导航。<br>改进的抓取起点 ——因为 HTML 站点地图是一个带有锚链接的页面，它对于可以发现并索引放置在那里的页面的搜索爬虫来说非常方便。<br>XML 站点地图为您的商店带来的好处：</p>
+<p>避免内容重复问题——XML 站点地图向搜索引擎显示内容发布的日期甚至时间，这可以验证您是内容的所有者，以防在未经您许可的情况下复制内容。<br>更好的网站可抓取性——包含您所有的网站页面，站点地图使搜索引擎蜘蛛更容易抓取和发现这些页面，即使有些页面没有任何内部链接。<br>更快的页面索引— XML 站点地图是通知搜索引擎有关新内容或已编辑内容的最佳方式，这可以提高索引并提高搜索排名。</p>
+<p>google blogger绑定域名后怎样提交sitemap?<br><a href="https://www.quora8.cn/c30f6e21.html">https://www.quora8.cn/c30f6e21.html</a></p>
+]]></content>
+      <categories>
+        <category>SEO</category>
+      </categories>
+      <tags>
+        <tag>google</tag>
+      </tags>
+  </entry>
 </search>
